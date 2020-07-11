@@ -2,6 +2,8 @@
 
 This is a low-cost 3D-printable PAPR project by Edwin Chiu (github: inceptionev)
 
+Most of the work is being done in the sandbox folder now.  Once things are tested and working, files and instructions will move into the releases folder.
+
 I am making this for myself, and for my loved ones who are medical workers and essential workers.  They wear masks all day to keep us safe.
 
 I am also working on a ventilator project which can be found at https://respira.works and https://github.com/RespiraWorks/Ventilator
