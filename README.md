@@ -15,3 +15,5 @@ It uses commonly-available 6000-series or 7093 bayonet filter cartridges, which 
 ![Front Exploded View](20200710-Exploded-View-Screenshot-Front.PNG)
 
 ![Back Exploded View](20200710-Exploded-View-Screenshot-Back.PNG)
+
+![3DprintParts](3DprintParts.jpg)
