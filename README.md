@@ -52,7 +52,7 @@ Also have a look at RespiraWorks' Ventilator project at https://respira.works an
 | Item | Quantity | Manufacturer  | Part #              | Price (USD)     |  Sources       | Notes |
 | ---- |---------:| ------------- | ------------------- | ------------:|----------------| ----- |
 | papr-tool1   | 1 | Custom 3D print | InletGasketJigInsideV1 | $1 (material) | [3D][3d5] | Jig for cutting inlet gasket |
-| papr-tool1   | 1 | Custom 3D print | InletGasketJigOutsideV1 | $1 (material) | [3D][3d6] | Jig for cutting inlet gasket |
+| papr-tool2   | 1 | Custom 3D print | InletGasketJigOutsideV1 | $1 (material) | [3D][3d6] | Jig for cutting inlet gasket |
 
 
 [3d1]: https://github.com/RespiraWorks/PAPR/blob/master/sandbox/PAPR-MAIN-V7.FCStd
