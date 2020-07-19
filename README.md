@@ -47,6 +47,9 @@ Also have a look at RespiraWorks' Ventilator project at https://respira.works an
 | papr12   | 1 | Amazon | Velcro strap | $10 | [Z][3amzn] | Velcro Strap for Battery |
 | papr13   | 1 | Conxwan | 26800mAh battery | $27 | [Z][4amzn] | 18W USB-C Battery |
 | papr14   | 3 | Amazon | 6-32 x 3/8" Screws | $8.75 | [Z][5amzn] | Screws to secure back |
+| papr15   | 1 | Amazon | 4ft CPAP hose | $10.57 | [Z][6amzn] | CPAP hose |
+| papr16   | 1 | 3M | 7093 Filter Cartridge (pair) | $30 | [3M][3m1] | example filter packs |
+| papr17   | 1 | 3M | 6200 Respirator Mask | $35 | [3M][3m2] | example respirator mask |
 
 ### Tools
 | Item | Quantity | Manufacturer  | Part #              | Price (USD)     |  Sources       | Notes |
@@ -71,6 +74,10 @@ Also have a look at RespiraWorks' Ventilator project at https://respira.works an
 [5amzn]: https://www.amazon.com/Stainless-Lengths-Available-Machine-Phillips/dp/B0793D86TB
 [3d5]: https://github.com/RespiraWorks/PAPR/blob/master/sandbox/InletGastketJigs.FCStd
 [3d6]: https://github.com/RespiraWorks/PAPR/blob/master/sandbox/InletGastketJigs.FCStd
+https://www.amazon.com/gp/product/B01DJGLEUG
+[3m1]: https://www.3m.com/3M/en_US/company-us/all-3m-products/~/3M-Particulate-Filter-7093-P100-60-EA-Case/?N=5002385+3294776429&rt=rud
+[3m2]: https://www.3m.com/3M/en_US/company-us/all-3m-products/~/3M-Half-Facepiece-Reusable-Respirator-6200-07025-AAD-Medium-24-EA-Case/?N=5002385+3294780295&preselect=3293786499&rt=rud
+
 
 
 18 July 2020 Update:
