@@ -28,6 +28,7 @@ Also have a look at RespiraWorks' Ventilator project at https://respira.works an
 * **3D** = 3D printed
 * **Z** = Amazon
 * **R** = RS computing
+* **3M** = 3M
 
 ### (Work-in-Progress) Bill of Materials:
 | Item | Quantity | Manufacturer  | Part #              | Price (USD)     |  Sources       | Notes |
@@ -74,7 +75,7 @@ Also have a look at RespiraWorks' Ventilator project at https://respira.works an
 [5amzn]: https://www.amazon.com/Stainless-Lengths-Available-Machine-Phillips/dp/B0793D86TB
 [3d5]: https://github.com/RespiraWorks/PAPR/blob/master/sandbox/InletGastketJigs.FCStd
 [3d6]: https://github.com/RespiraWorks/PAPR/blob/master/sandbox/InletGastketJigs.FCStd
-https://www.amazon.com/gp/product/B01DJGLEUG
+[6amzn]: https://www.amazon.com/gp/product/B01DJGLEUG
 [3m1]: https://www.3m.com/3M/en_US/company-us/all-3m-products/~/3M-Particulate-Filter-7093-P100-60-EA-Case/?N=5002385+3294776429&rt=rud
 [3m2]: https://www.3m.com/3M/en_US/company-us/all-3m-products/~/3M-Half-Facepiece-Reusable-Respirator-6200-07025-AAD-Medium-24-EA-Case/?N=5002385+3294780295&preselect=3293786499&rt=rud
 
