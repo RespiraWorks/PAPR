@@ -56,6 +56,7 @@ Also have a look at RespiraWorks' Ventilator project at https://respira.works an
 | papr20   | 1 | OWO | (Optional) Upgraded potentiometer| $1.00 | [A][4ali] | nicer pot with knob and jam nut |
 | papr21   | 1 | JST | (Optional) JST connector kit and crimper | $40 | [Z][8amzn] | required connectors for upgraded potentiometer |
 
+
 ### Mask/Helmet Parts
 Parts for modifying and adapting masks and helmets for use with the PAPR
 
@@ -67,6 +68,7 @@ Parts for modifying and adapting masks and helmets for use with the PAPR
 | mask4   | 1 | Allegro | Tyvek Full-Face Hood | $23 | [Z][9amzn] | example full-face hood* |
 | mask5   | 1 | Custom 3D print | Bayonet Inlet Adapter | $2 (material) | [3D][3d7] | Inlet Adapter for Bayonet-type masks |
 | mask6   | 1 | Custom 3D print | 6100/6200/6300 Outlet Plug | $1 (material) | [3D][3d8] | Plug for sealing the outlet valve of 6100/6200/6300 masks |
+| mask7   | 1 | 3M | Inlet Filter Gasket  | $2.01 | [G][1grgr] | Inlet Gasket used as part of above outlet sealing |
 
 *note, without modification, these masks do not filter the exhaled air.  They are useful for keeping the wearer safe, but not for keeping others safe from the wearer.
 
@@ -261,13 +263,11 @@ If for some reason you ever need to remove the outlet adapter key, wedge a screw
 
 ### 6100/6200/6300 Half Facepiece Mask
 
-**Step 1:** Select one side of the mask to be the inlet side.  Remove the check valve membrane from the inlet valve on that side.  Install the 3D -Printed Bayonet Mask Adapter onto that side.
+**Step 1:** Select one side of the mask to be the inlet side.  Remove the check valve membrane from the inlet valve on that side.  Install the bayonet filter onto that side.  Install the 3D-Printed Bayonet Mask Adapter onto the other side.
 
-**Step 2:** Use the 3D-Printed 6200 Outlet Plug as jig to cut out a gasket.
+**Step 2:** Remove the outlet valve cover.  A flat bladed screwdriver will help.  Leave the outlet valve membrane in place.  Put one of the filter gasket over the membrane, followed by the outlet plug.
 
-**Step 3:** Remove the outlet valve cover.  A flat bladed screwdriver will help.  Leave the outlet valve membrane in place.  Put the gasket over the membrane, followed by the outlet plug.
-
-**Step 4:** Reinstall the outlet valve cover and mark it as sealed.
+**Step 3:** Reinstall the outlet valve cover and mark it as sealed.
 
 ### Coming Soon:
 
