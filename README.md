@@ -2,11 +2,13 @@
 
 ![Overview photo](/assets/PAPR-protoV7.jpg)
 
-This is a low-cost 3D-printable PAPR project by Edwin Chiu (github: inceptionev)
+This is a low-cost 3D-printable PAPR project started by Edwin Chiu as part of RespiraWorks (github: inceptionev)
 
-Most of the work is being done in the sandbox folder for now.  Once things are tested and working, files and instructions will move into the releases folder.  Most of the 3D files here were created in FreeCad v0.18.
+This project is currently at release-candidate stage.  The current files can be found in the release-candidates folder.  Most of the 3D files here were created in FreeCad v0.18.
 
-I am making this for myself, and for my loved ones who are medical workers and essential workers.  They wear masks all day to keep us safe, and supplies of disposable PPE are not keeping up.
+The most current instructions are those in this README.  They include instructions both for building the PAPR and for modifying off-the-shelf masks, hoods, and helmets for use with the PAPR.
+
+I am making this for myself, and for my loved ones who are medical workers and essential workers.  They wear masks all day to keep us safe, and supplies of disposable PPE are sometimes uncertain.
 
 The combination of a respirator mask, powered air delivery, and commonly-available bayonet-mount filter packs provides a better face-seal, more comfortable breathing, and more re-usability than disposable masks. 
 
@@ -29,7 +31,7 @@ Also have a look at RespiraWorks' Ventilator project at https://respira.works an
 * **Z** = Amazon
 * **R** = RS computing
 * **3M** = 3M
-* **G** - Grainger
+* **G** = Grainger
 
 ### Bill of Materials:
 | Item | Quantity | Manufacturer  | Part #              | Price (USD)     |  Sources       | Notes |
