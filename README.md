@@ -125,7 +125,9 @@ Removing the solder bridge sets the PD mode to 9V.
 
 The diode and cap are necessary protect the battery from receiving damaging voltage kickback from the motor driver.  
 
-![Trigger Voltage and Diode](/assets/ElectricalAssembly2-Diode.jpg) ![Diode Detail](/assets/ElectricalAssembly3-DiodeDetail.jpg)
+|                            |                             |
+|:--------------------------:|:---------------------------:|
+| ![Trigger Voltage and Diode](/assets/ElectricalAssembly2-Diode.jpg) | ![Diode Detail](/assets/ElectricalAssembly3-DiodeDetail.jpg) |
 
 The diode has a line indicating the cathode.  Make sure the side with the line goes to positive (+) on the trigger.  
 
@@ -135,7 +137,9 @@ Now flip the PD Trigger over and solder the 4.7uF 50V cap to the backside betwee
 
 Then solder the motor controller wires to the pads on the trigger.  Heat shrink anound the completed trigger assembly.
 
-![Power Wires](/assets/ElectricalAssembly5-PowerWires.jpg) ![PD Trigger Heat Shrink](/assets/ElectricalAssembly6-PowerHeatshrink.jpg)
+|                            |                             |
+|:--------------------------:|:---------------------------:|
+| ![Power Wires](/assets/ElectricalAssembly5-PowerWires.jpg) | ![PD Trigger Heat Shrink](/assets/ElectricalAssembly6-PowerHeatshrink.jpg) |
 
 - **Step 4:** Attach the driver to the blower.  Make sure to observe the right pin assignments as pictured or the blower will spin backwards.
 
@@ -143,7 +147,9 @@ Cut the White, Yellow, and Blue blower wires near the connector, preserving as m
 
 Trim the driver's black phase wires short and strip them as pictured.  Solder the blower and driver phase wires as pictured, being mindful of the driver orientation (capacitors below wires).  Apply the heat shrink tubing.
 
-![Phase Wires](/assets/ElectricalAssembly7-PhaseWires.jpg) ![Phase Wires Heat Shrink](/assets/ElectricalAssembly8-DriverHeatshrink.jpg)
+|                            |                             |
+|:--------------------------:|:---------------------------:|
+| ![Phase Wires](/assets/ElectricalAssembly7-PhaseWires.jpg) | ![Phase Wires Heat Shrink](/assets/ElectricalAssembly8-DriverHeatshrink.jpg) |
 
 - **Step 5:** Install the pot into the body.  If you are using the included pot that comes with the driver, most of these steps will be optional.  For the included pot, push the pot into the slot and through the shaft hole, and glue it in place with some hot glue.  If you are using the upgraded pot with knob, follow these instructions:
 
@@ -153,15 +159,21 @@ Take the included pot and cut off the wires, preserving the connector and wires.
 
 Crimp JST XH sockets onto the ends of these pins.  Populate the sockets into a 3-pin female JST XH housing, using the old pot as a guide for the pin arrangement.  Insert the connector into the pot PCB.
 
-![Pot Wire Crimps](/assets/ElectricalAssembly10-Pot2.jpg) ![Pot Wire Connector](/assets/ElectricalAssembly11-Pot3.jpg)
+|                            |                             |
+|:--------------------------:|:---------------------------:|
+| ![Pot Wire Crimps](/assets/ElectricalAssembly10-Pot2.jpg) | ![Pot Wire Connector](/assets/ElectricalAssembly11-Pot3.jpg) |
 
 Remove the knob, nut, and washer from the pot.  The knob is push-fit and just slides off.  Install it into the slot and through the shaft hole with the PCB up against the inner wall.  Route the wires through the groove.  
 
-![Pot hardware](/assets/ElectricalAssembly12-Pot4.jpg) ![Pot placement](/assets/ElectricalAssembly13-Pot5.jpg)
+|                            |                             |
+|:--------------------------:|:---------------------------:|
+| ![Pot hardware](/assets/ElectricalAssembly12-Pot4.jpg) | ![Pot placement](/assets/ElectricalAssembly13-Pot5.jpg) |
 
 From the other side, install the washer and nut and tighten to retain the pot.  Install the push-fit knob.
 
-![Pot Installation](/assets/ElectricalAssembly14-Pot6.jpg) ![Knob Installtion](/assets/ElectricalAssembly15-Pot7.jpg)
+|                            |                             |
+|:--------------------------:|:---------------------------:|
+| ![Pot Installation](/assets/ElectricalAssembly14-Pot6.jpg) | ![Knob Installtion](/assets/ElectricalAssembly15-Pot7.jpg) |
 
 Plug the other end of the pot wires into the driver.
 
@@ -171,11 +183,15 @@ Plug the other end of the pot wires into the driver.
 
 First, make sure you have enough room to cut out the inlet gasket. Place the inner gasket jig and use it to make the inner cut.
 
-![Gasket Material](/assets/MechanicalAssembly1-Gasket1.jpg) ![Gasket inner cut](/assets/MechanicalAssembly2-Gasket2.jpg)
+|                            |                             |
+|:--------------------------:|:---------------------------:|
+| ![Gasket Material](/assets/MechanicalAssembly1-Gasket1.jpg) | ![Gasket inner cut](/assets/MechanicalAssembly2-Gasket2.jpg) |
 
 Place the outer gasket jig into the hole you just cut and use it to make the outer cut.
 
-![Outer Gasket Jig](/assets/MechanicalAssembly3-Gasket3.jpg) ![Gasket outer cut](/assets/MechanicalAssembly4-Gasket4.jpg)
+|                            |                             |
+|:--------------------------:|:---------------------------:|
+| ![Outer Gasket Jig](/assets/MechanicalAssembly3-Gasket3.jpg) | ![Gasket outer cut](/assets/MechanicalAssembly4-Gasket4.jpg) |
 
 Insert the completed inlet gasket into the housing.
 
