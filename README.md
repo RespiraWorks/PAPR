@@ -259,15 +259,33 @@ If for some reason you ever need to remove the outlet adapter key, wedge a screw
 
 
 
-## (Work in progress)Mask Assembly Instructions
+## (Work in progress) Mask Assembly Instructions
 
 ### 6100/6200/6300 Half Facepiece Mask
 
-**Step 1:** Select one side of the mask to be the inlet side.  Remove the check valve membrane from the inlet valve on that side.  Install the bayonet filter onto that side.  Install the 3D-Printed Bayonet Mask Adapter onto the other side.
+**Step 1:** Select one side of the mask to be the outlet filter side.  Remove the check valve membrane from the one-way valve on that side.  Install the bayonet filter cartridge onto that side.  On the opposite side, leave the valve membrane in place and install the 3D-Printed Bayonet Mask Adapter.
 
-**Step 2:** Remove the outlet valve cover.  A flat bladed screwdriver will help.  Leave the outlet valve membrane in place.  Put one of the filter gasket over the membrane, followed by the outlet plug.
+|                            |                             |                             |
+|:--------------------------:|:---------------------------:|:---------------------------:|
+| ![Remove Valve Membrane](/assets/6200Mask1-RemoveMembrane.jpg) | ![Install Parts](/assets/6200Mask2-InstallParts.jpg) | ![Bayonet Inlet Adapter](/assets/6200Mask3-BayonetInletAdapter.jpg) |
 
-**Step 3:** Reinstall the outlet valve cover and mark it as sealed.
+**Step 2:** Remove the outlet valve cover.  A flat bladed screwdriver will help.  Leave the outlet valve membrane in place.  
+
+|                            |                             |
+|:--------------------------:|:---------------------------:|
+| ![Remove Outlet Cover](/assets/6200Mask4-RemoveOutletCover.jpg) | ![Leave Outlet Membrane in Place](/assets/6200Mask5-LeaveMembrane.jpg) |
+
+Put one of the 3M filter gaskets over the membrane, followed by the outlet plug.
+
+|                            |                             |
+|:--------------------------:|:---------------------------:|
+| ![Place Gasket](/assets/6200Mask6-PlaceGasket.jpg) | ![Place Plug](/assets/6200Mask7-PlacePlug.jpg) |
+
+**Step 3:** Reinstall the outlet valve cover, making sure it snaps into place, and mark it as sealed.
+
+|                            |                             |
+|:--------------------------:|:---------------------------:|
+| ![Reinstall Outlet Cover](/assets/6200Mask8-CloseOutletCover.jpg) | ![Label Outlet](/assets/6200Mask9-LabelOutlet.jpg) |
 
 ### Coming Soon:
 
