@@ -1,6 +1,6 @@
 # RespiraWorks PAPR Project
 
-![Overview photo](PAPR-protoV7.jpg)
+![Overview photo](/assets/PAPR-protoV7.jpg)
 
 This is a low-cost 3D-printable PAPR project by Edwin Chiu (github: inceptionev)
 
@@ -30,7 +30,7 @@ Also have a look at RespiraWorks' Ventilator project at https://respira.works an
 * **R** = RS computing
 * **3M** = 3M
 
-### (Work-in-Progress) Bill of Materials:
+### Bill of Materials:
 | Item | Quantity | Manufacturer  | Part #              | Price (USD)     |  Sources       | Notes |
 | ---- |---------:| ------------- | ------------------- | ------------:|----------------| ----- |
 | papr1   | 1 | Custom 3D print | TopLevelPart-Body | $6 (material) | [3D][3d1] | Main Body |
@@ -40,21 +40,32 @@ Also have a look at RespiraWorks' Ventilator project at https://respira.works an
 | papr5   | 1 | Custom 3D print | TopLevelPart-MaskAdapter | $2 (material) | [3D][3d5] | Adapter for bayonet-style mask |
 | papr6   | 1 | Wonsmart | WS7040-12-X200 | $36 | [A][1ali] | 12V Blower |
 | papr7   | 1 | Generic | PotBrushlessController | $10.11 | [A][2ali] | Potentionmeter Brushless Motor Driver |
-| papr8   | 1 | Generic | 9V12V USB-C Trigger | $3.15 | [A][3ali] | USB-C 12V/9V PD Trigger |
+| papr8   | 1 | Generic | 9V/12V USB-C Trigger | $3.15 | [A][3ali] | USB-C 12V/9V PD Trigger |
 | papr9   | 1 | Amazon | 6-inch USB-C Cable | $3.50 | [Z][1azmn] | 6-inch USB-C Cable |
 | papr10   | 1 | Amazon | Carry Strap | $12.59 | [Z][2amzn] | Carry Strap |
-| papr11   | 1 | Vishay | SA9.0CA-E3/54 | $0.42 | [K][1dk] | TVS diode |
-| papr11   | 1 | ON Semi | MUR420G | $0.42 | [K][2dk] | Reverse Protection Diode |
+| papr11   | 1 | Littelfuse | SMAJ9.0A | $0.41 | [K][1dk] | TVS diode |
+| papr11   | 1 | Various | CAP 0805 4.7uF 50V X5R | $0.27 | [K][2dk] | Filtering Cap - manufacturer stock rotates often, so search for an in-stock part |
 | papr12   | 1 | Amazon | Elastic Phone Holder | $10 | [Z][3amzn] | Elastic band to hold battery |
 | papr13   | 1 | Conxwan | 26800mAh battery | $27 | [Z][4amzn] | 18W USB-C Battery |
 | papr14   | 3 | Amazon | 6-32 x 3/8" Screws | $8.75 | [Z][5amzn] | Screws to secure back |
 | papr15   | 1 | Amazon | 4ft CPAP hose | $10.57 | [Z][6amzn] | CPAP hose |
 | papr16   | 1 | 3M | 7093 Filter Cartridge (pair) | $30 | [3M][3m1] | example filter packs |
-| papr17   | 1 | 3M | 6200 Respirator Mask | $35 | [3M][3m2] | example respirator mask |
-| papr18   | about 10x10cm | Lazy Dog | 1/8" Neoprene Material | $15.80/roll | [Z][7amzn] | gasket material |
+| papr18   | about 6x6cm | McMaster-Carr | 1/8" Silicone Foam  | $22.22/12x12" | [C][1mcmc] | gasket material |
 | papr19   | 1 | OWO | (Optional) Upgraded potentiometer| $1.00 | [A][4ali] | nicer pot with knob and jam nut |
+| papr20   | 1 | JST | (Optional) JST connector kit and crimper | $40 | [Z][8amzn] | required connectors for upgraded potentiometer |
 
-### Tools
+### Mask/Helmet Examples
+| Item | Quantity | Manufacturer  | Part #              | Price (USD)     |  Sources       | Notes |
+| mask1   | 1 | 3M | 6100(S)/6200(M)/6300(L) Respirator Mask | $35 | [3M][3m2] | example half-face respirator mask* |
+| mask2   | 1 | 3M | 6700(S)/6800(M)/6900(L) Full-Face Mask | $150 | [3M][3m3] | example full-face respirator mask* |
+| mask3   | 1 | 3M | M-206 Full Face Helmet | $230 | [3M][3m4] | example full-face respiratory helmet* |
+| mask4   | 1 | Allegro | Tyvek Full-Face Hood | $23 | [Z][9amzn] | example full-face hood* |
+
+*note, without modification, these masks do not filter the exhaled air.  They are useful for keeping the wearer safe, but not for keeping others safe from the wearer.
+
+Some of these can be modified enable full 2-way filtering.  Instructions are planned for this lower down on this page.
+
+### Tools and useful consumables
 | Item | Quantity | Manufacturer  | Part #              | Price (USD)     |  Sources       | Notes |
 | ---- |---------:| ------------- | ------------------- | ------------:|----------------| ----- |
 | papr-tool1   | 1 | Custom 3D print | InletGasketJigInsideV1 | $1 (material) | [3D][3d5] | Jig for cutting inlet gasket |
@@ -65,6 +76,8 @@ Also have a look at RespiraWorks' Ventilator project at https://respira.works an
 - 6-32 tap
 - Philips screwdriver
 - Small flat-blade screwdriver (for removing outlet key)
+- Assorted heat-shrink tubing or electrical tape
+- Soldering iron and soldering supplies
 
 [3d1]: https://github.com/RespiraWorks/PAPR/blob/master/sandbox/PAPR-MAIN-V7.FCStd
 [3d2]: https://github.com/RespiraWorks/PAPR/blob/master/sandbox/PAPR-MAIN-V7.FCStd
@@ -75,8 +88,8 @@ Also have a look at RespiraWorks' Ventilator project at https://respira.works an
 [3ali]: https://www.aliexpress.com/item/4000528106092.html
 [1azmn]: https://www.amazon.com/gp/product/B01LONPUM4
 [2amzn]: https://www.amazon.com/gp/product/B06XDNR14N
-[1dk]: https://www.digikey.com/product-detail/en/vishay-semiconductor-diodes-division/SA9.0CA-E3-54/SA9.0CA-E3-54GICT-ND/3847567
-[2dk]: https://www.digikey.com/product-detail/en/on-semiconductor/MUR420G/MUR420GOS-ND/1482828
+[1dk]: https://www.digikey.com/product-detail/en/littelfuse-inc/SMAJ9.0A/SMAJ9.0ALFCT-ND/762476
+[2dk]: https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A475KBQNNNE/1276-1248-1-ND/3889334
 [3amzn]: https://www.amazon.com/gp/product/B07QTHFNYF
 [4amzn]: https://www.amazon.com/gp/product/B08729Z2JX
 [5amzn]: https://www.amazon.com/Stainless-Lengths-Available-Machine-Phillips/dp/B0793D86TB
@@ -84,12 +97,16 @@ Also have a look at RespiraWorks' Ventilator project at https://respira.works an
 [3d6]: https://github.com/RespiraWorks/PAPR/blob/master/sandbox/InletGastketJigs.FCStd
 [6amzn]: https://www.amazon.com/gp/product/B01DJGLEUG
 [3m1]: https://www.3m.com/3M/en_US/company-us/all-3m-products/~/3M-Particulate-Filter-7093-P100-60-EA-Case/?N=5002385+3294776429&rt=rud
-[3m2]: https://www.3m.com/3M/en_US/company-us/all-3m-products/~/3M-Half-Facepiece-Reusable-Respirator-6200-07025-AAD-Medium-24-EA-Case/?N=5002385+3294780295&preselect=3293786499&rt=rud
+[3m2]: https://www.3m.com/3M/en_US/company-us/all-3m-products/~/All-3M-Products/Personal-Protective-Equipment/Reusable-Respirators/Half-Facepiece-Respirators/3M-Half-Facepiece-Reusable-Respirators-6000-Series/?N=5002385+8711017+8720539+8720550+8720785+8726639+3294857497&rt=r3
 [7amzn]: https://www.amazon.com/gp/product/B07BKP6KFX
 [4ali]: https://www.aliexpress.com/item/10000192070172.html
+[8amzn]: https://www.amazon.com/gp/product/B07R1H3Z8X
+[1mcmc]: https://www.mcmaster.com/8785K82-8785K822/
+[3m3]: https://www.3m.com/3M/en_US/company-us/all-3m-products/~/All-3M-Products/Personal-Protective-Equipment/Reusable-Respirators/Full-Facepiece-Respirators/3M-Full-Facepiece-Reusable-Respirators-6000-Series/?N=5002385+8711017+8720539+8720550+8720784+8726633+3294857497&rt=r3
+[3m4]: https://www.3m.com/3M/en_US/company-us/all-3m-products/~/3M-Versaflo-Respiratory-Faceshield-Assembly-M-206-37299-AAD-with-Comfort-Faceseal-1-EA-Case/?N=5002385+3292194464&preselect=3293786499&rt=rud
+[9amzn]: https://www.amazon.com/gp/product/B012D8N4I6/
 
-
-## Basic Assembly Narrative (needs to be updated with photos and details)
+## PAPR Assembly Instructions
 
 - **Step 1:** Print out all the 3D printed parts and tools.  Tip: Select the print orientation such that supports fall on flat/inside faces, and avoid supports on text.  Note that depending on your printer, you may need to chase the screw threads with a 6-32 tap.
 
@@ -97,49 +114,121 @@ Also have a look at RespiraWorks' Ventilator project at https://respira.works an
 
 The next few steps can be done while the parts are being printed.  The first part you need is the Gasket Jigs so if you print those first you can get moving.  The next part is the body, followed by the outlet adapter, and the outlet adapter key, and finally, the battery back.  The mask adapter can be printed separately, but it fits in nicely with the outlet adapter and outlet adapter key print.
 
-- **Step 2:** Add diodes to the USB-C PD trigger.  These diodes protect the battery from damaging voltage kickback from the motor driver.  The zener diode has a symmetrical arrangement, so it does not have a polarity, either way is fine.  For the general purpose diode, make sure the side with the line goes to positive (+) on the trigger.  You can use the included holes to mount the diodes.  Then solder the motor controller wires to the pads on the trigger.  You may wish to trim these wires to make them pack better.  Heat shrink anound the trigger assembly.
+- **Step 2:** Gather your electrical parts.
 
-*photo of this process*
+![Electrical Parts](/assets/ElectricalAssembly1-Parts.jpg)
 
-- **Step 3:** Cut, solder, and heat shrink the motor driver to the blower.  Make sure to observe the right pin assignments as pictured or the blower will spin backwards.
+- **Step 3:** Prepare the PD Trigger.  Here will we set the voltage to 9V and add voltage protection to output.  
 
-*photo of the correct arrangement*
+Removing the solder bridge sets the PD mode to 9V.
 
-*photo of the finished electronics*
+The diode and cap are necessary protect the battery from receiving damaging voltage kickback from the motor driver.  
 
-- **Step 4:** Use the gasket jigs to cut out a gasket from the neoprene material
+![Trigger Voltage and Diode](/assets/ElectricalAssembly2-Diode.jpg) ![Diode Detail](/assets/ElectricalAssembly3-DiodeDetail.jpg)
 
-*photos here of how it is done*
+The diode has a line indicating the cathode.  Make sure the side with the line goes to positive (+) on the trigger.  
 
-- **Step 5:** remove the potentiometer from the motor driver and place it into the slot.  Secure it with some hot glue.  (Optional: if you got the upgraded potentiometer, remove the knob and jam nut, insert the potentiometer, then secure it with the jam nut instead of the glue, and then put the knob back onto the shaft.)  Route the wires back to the electronics pocket.
+Now flip the PD Trigger over and solder the 4.7uF 50V cap to the backside between the two metal thru-holes.
 
-*photos: installing the potentiometer*
+![Cap](/assets/ElectricalAssembly4-Cap.jpg)
 
-- **Step 6:** Put the gasket into the blower pocket and place the blower
+Then solder the motor controller wires to the pads on the trigger.  Heat shrink anound the completed trigger assembly.
 
-*photo here of gasket and blower placement*
+![Power Wires](/assets/ElectricalAssembly5-PowerWires.jpg) ![PD Trigger Heat Shrink](/assets/ElectricalAssembly6-PowerHeatshrink.jpg)
 
-- **Step 7:** Insert the Outlet Adapter and secure it using the Outlet Adapter Key.  If for some reason you need to remove the outlet adapter key, wedge a screwdriver into the provided notch and lever it out.
+- **Step 4:** Attach the driver to the blower.  Make sure to observe the right pin assignments as pictured or the blower will spin backwards.
 
-*photos of here of how this works*
+Cut the White, Yellow, and Blue blower wires near the connector, preserving as much length as possible.  Cut some heat shrink tubing and put them on the blower wires before you proceed.
 
-- **Step 8:** Route the wires back to the eletronics pocket
+Trim the driver's black phase wires short and strip them as pictured.  Solder the blower and driver phase wires as pictured, being mindful of the driver orientation (capacitors below wires).  Apply the heat shrink tubing.
 
-*photo showing routing*
+![Phase Wires](/assets/ElectricalAssembly7-PhaseWires.jpg) ![Phase Wires Heat Shrink](/assets/ElectricalAssembly8-DriverHeatshrink.jpg)
 
-- **Step 9:** Connect the USB-C cable and the potentiometer, and tuck in the electronics
+- **Step 5:** Install the pot into the body.  If you are using the built included pot that comes with the driver, most of these steps will be optional.  Push the pot into the slot and through the shaft hole, and glue it in place with some hot glue.  If you are using the upgraded pot with knob, follow these instructions:
 
-*photo showing arrangement*
+Take the included pot and cut off the wires, preserving the connector and wires.
 
-- **Step 10:** Route the USB cable up to the slot in the enclosure, being careful not to catch the USB conenctor in a place that is narrower than its height.
+![Included pot](/assets/ElectricalAssembly9-Pot1.jpg)
 
-- **Step 11:** Place the battery back, being careful not to pinch any wires.
+Crimp JST XH sockets onto the ends of these pins.  Populate the sockets into a 3-pin female JST XH housing, using the old pot as a guide for the pin arrangement.  Insert the connector into the pot PCB.
 
-- **Step 12:** Use the screws to secure the battery back onto the body
+![Pot Wire Crimps](/assets/ElectricalAssembly10-Pot2.jpg) ![Pot Wire Connector](/assets/ElectricalAssembly11-Pot3.jpg)
 
-- **Step 13:** Install the battery in to the PAPR and secure it with the elastic cage.
+Remove the know, nut, and washer from the pot.  The knob is push-fit and just slides off.  Install it into the slot and through the shaft hole with the PCB up against the inner wall.  Route the wires through the groove.  
 
-- **Step 14:** Plug in and test!
+![Pot hardware](/assets/ElectricalAssembly12-Pot4.jpg) ![Pot placement](/assets/ElectricalAssembly13-Pot5.jpg)
+
+From the other side, install the washer and nut and tighten to retain the pot.  Install the push-fit knob.
+
+![Pot Installation](/assets/ElectricalAssembly14-Pot6.jpg) ![Knob Installtion](/assets/ElectricalAssembly15-Pot7.jpg)
+
+Plug the other end of the pot wires into the driver.
+
+![Driver Pot Connection](/assets/ElectricalAssembly16-Pot8.jpg)
+
+- **Step 6:** Use the gasket jigs to cut out the inlet gasket from the gasket material
+
+First, make sure you have enough room to cut out the inlet gasket. Place the inner gasket jig and use it to make the inner cut.
+
+![Gasket Material](/assets/MechanicalAssembly1-Gasket1.jpg) ![Gasket inner cut](/assets/MechanicalAssembly2-Gasket2.jpg)
+
+Place the outer gasket jig into the hole you just cut and use it to make the other cut.
+
+![Outer Gasket Jig](/assets/MechanicalAssembly3-Gasket3.jpg) ![Gasket outer cut](/assets/MechanicalAssembly4-Gasket4.jpg)
+
+Insert the completed inlet gasket into the housing.
+
+![Inlet Gasket Placement](/assets/MechanicalAssembly5-Gasket5.jpg)
+
+- **Step 6:** Install the blower into the housing..
+
+Put them blower into the pocket over the gasket.
+
+Insert the outlet adapter through the hole at the top of the housing and install the retaining key.
+
+Route the wires back through the groove to the electronics pocket.  Fit the driver and PD trigger into this pocket.
+
+Install the 6" USB-C cable into the PD trigger and route it as shown out the top of the housing, being careful not to catch the USB conenctor in a place that is narrower than its height.
+
+![Electronics Layout](/assets/ElectricalAssembly17-Layout.jpeg)
+
+*more photos needed to break down this process*
+
+If for some reason you ever need to remove the outlet adapter key, wedge a screwdriver into the provided notch and lever it out.
+
+*photo of here of how this works*
+
+- **Step 7:** Install the battery back, being careful not to pinch any wires.  It's easiest to slide it on, while holding the wires in place.
+
+*WIP: photos of this process*
+
+Use the screws to secure the battery back onto the body
+
+*WIP: photos of this process*
+
+- **Step 8:** Install the battery in to the PAPR and secure it with the elastic cage.
+
+*WIP: photos of this process*
+
+- **Step 9:** Take one of the filter gaskets and put it onto the inlet bayonet.
+
+*WIP: photos of this process*
+
+- **Step 10:** Install the shoulder strap.
+
+- **Step 11:** Plug in and test!
+
+![Completed Assembly](/assets/Assembly-Complete.jpg)
+
+
+## COMING SOON: Mask Assembly Instructions
+
+Instructions and 3D print files to modify masks, hoods, and helmets for use with the PAPR.
+![Modified Masks](/assets/ModifiedMasks.jpg)
+
+Instructions on how to modify the outlet valves to enable filtering of the exhaled air.
+![Outlet Sealed](/assets/Sticker-ClosedOutlet.png)
+
 
 18 July 2020 Update:
 
