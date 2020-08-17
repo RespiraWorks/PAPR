@@ -39,7 +39,7 @@ Also have a look at RespiraWorks' Ventilator project at https://respira.works an
 | papr4   | 1 | Custom 3D print | TopLevelPart-OutletKey | $6 (material)  | [3D][3d4]    | key to hold the outlet in |
 | papr5   | 1 | Custom 3D print | TopLevelPart-MaskAdapter | $2 (material) | [3D][3d5] | Adapter for bayonet-style mask |
 | papr6   | 1 | Wonsmart | WS7040-12-X200 | $36 | [A][1ali] | 12V Blower |
-| papr7   | 1 | Generic | PotBrushlessController | $10.11 | [A][2ali] | Potentionmeter Brushless Motor Driver |
+| papr7   | 1 | Generic | PotBrushlessController | $10.11 | [A][2ali] | Potentiometer-Controlled Brushless Motor Driver |
 | papr8   | 1 | Generic | 9V/12V USB-C Trigger | $3.15 | [A][3ali] | USB-C 12V/9V PD Trigger |
 | papr9   | 1 | Amazon | 6-inch USB-C Cable | $3.50 | [Z][1azmn] | 6-inch USB-C Cable |
 | papr10   | 1 | Amazon | Carry Strap | $12.59 | [Z][2amzn] | Carry Strap |
@@ -56,6 +56,7 @@ Also have a look at RespiraWorks' Ventilator project at https://respira.works an
 
 ### Mask/Helmet Examples
 | Item | Quantity | Manufacturer  | Part #              | Price (USD)     |  Sources       | Notes |
+| ---- |---------:| ------------- | ------------------- | ------------:|----------------| ----- |
 | mask1   | 1 | 3M | 6100(S)/6200(M)/6300(L) Respirator Mask | $35 | [3M][3m2] | example half-face respirator mask* |
 | mask2   | 1 | 3M | 6700(S)/6800(M)/6900(L) Full-Face Mask | $150 | [3M][3m3] | example full-face respirator mask* |
 | mask3   | 1 | 3M | M-206 Full Face Helmet | $230 | [3M][3m4] | example full-face respiratory helmet* |
@@ -118,7 +119,7 @@ The next few steps can be done while the parts are being printed.  The first par
 
 ![Electrical Parts](/assets/ElectricalAssembly1-Parts.jpg)
 
-- **Step 3:** Prepare the PD Trigger.  Here will we set the voltage to 9V and add voltage protection to output.  
+- **Step 3:** Prepare the PD Trigger.  Here will we set the voltage to 9V and add voltage protection to the output.  
 
 Removing the solder bridge sets the PD mode to 9V.
 
@@ -144,7 +145,7 @@ Trim the driver's black phase wires short and strip them as pictured.  Solder th
 
 ![Phase Wires](/assets/ElectricalAssembly7-PhaseWires.jpg) ![Phase Wires Heat Shrink](/assets/ElectricalAssembly8-DriverHeatshrink.jpg)
 
-- **Step 5:** Install the pot into the body.  If you are using the built included pot that comes with the driver, most of these steps will be optional.  Push the pot into the slot and through the shaft hole, and glue it in place with some hot glue.  If you are using the upgraded pot with knob, follow these instructions:
+- **Step 5:** Install the pot into the body.  If you are using the included pot that comes with the driver, most of these steps will be optional.  For the included pot, push the pot into the slot and through the shaft hole, and glue it in place with some hot glue.  If you are using the upgraded pot with knob, follow these instructions:
 
 Take the included pot and cut off the wires, preserving the connector and wires.
 
@@ -154,7 +155,7 @@ Crimp JST XH sockets onto the ends of these pins.  Populate the sockets into a 3
 
 ![Pot Wire Crimps](/assets/ElectricalAssembly10-Pot2.jpg) ![Pot Wire Connector](/assets/ElectricalAssembly11-Pot3.jpg)
 
-Remove the know, nut, and washer from the pot.  The knob is push-fit and just slides off.  Install it into the slot and through the shaft hole with the PCB up against the inner wall.  Route the wires through the groove.  
+Remove the knob, nut, and washer from the pot.  The knob is push-fit and just slides off.  Install it into the slot and through the shaft hole with the PCB up against the inner wall.  Route the wires through the groove.  
 
 ![Pot hardware](/assets/ElectricalAssembly12-Pot4.jpg) ![Pot placement](/assets/ElectricalAssembly13-Pot5.jpg)
 
@@ -172,7 +173,7 @@ First, make sure you have enough room to cut out the inlet gasket. Place the inn
 
 ![Gasket Material](/assets/MechanicalAssembly1-Gasket1.jpg) ![Gasket inner cut](/assets/MechanicalAssembly2-Gasket2.jpg)
 
-Place the outer gasket jig into the hole you just cut and use it to make the other cut.
+Place the outer gasket jig into the hole you just cut and use it to make the outer cut.
 
 ![Outer Gasket Jig](/assets/MechanicalAssembly3-Gasket3.jpg) ![Gasket outer cut](/assets/MechanicalAssembly4-Gasket4.jpg)
 
@@ -190,7 +191,7 @@ Route the wires back through the groove to the electronics pocket.  Fit the driv
 
 Install the 6" USB-C cable into the PD trigger and route it as shown out the top of the housing, being careful not to catch the USB conenctor in a place that is narrower than its height.
 
-![Electronics Layout](/assets/ElectricalAssembly17-Layout.jpeg)
+![Electronics Layout](/assets/ElectricalAssembly17-Layout.jpg)
 
 *more photos needed to break down this process*
 
