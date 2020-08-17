@@ -263,6 +263,10 @@ If for some reason you ever need to remove the outlet adapter key, wedge a screw
 
 ### 6100/6200/6300 Half Facepiece Mask
 
+Note that 6100 is the small side, 6200 is medium, and 6300 is large.  These instructions and the 3D-printed pieces will work with all three sizes.
+
+These modifications to the mask make it compatible with the PAPR, while also plugging the exhale valve and repurposing one of the inlet filters as an outlet filter.  This converts the mask into a full 2-way PAPR that filters both inhaled and exhaled air.
+
 **Step 1:** Select one side of the mask to be the outlet filter side.  Remove the check valve membrane from the one-way valve on that side.  Install the bayonet filter cartridge onto that side.  On the opposite side, leave the valve membrane in place and install the 3D-Printed Bayonet Mask Adapter.
 
 |                            |                             |                             |
