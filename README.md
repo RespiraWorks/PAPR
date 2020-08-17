@@ -56,17 +56,22 @@ Also have a look at RespiraWorks' Ventilator project at https://respira.works an
 | papr20   | 1 | OWO | (Optional) Upgraded potentiometer| $1.00 | [A][4ali] | nicer pot with knob and jam nut |
 | papr21   | 1 | JST | (Optional) JST connector kit and crimper | $40 | [Z][8amzn] | required connectors for upgraded potentiometer |
 
-### Mask/Helmet Examples
+### Mask/Helmet Parts
+Parts for modifying and adapting masks and helmets for use with the PAPR
+
 | Item | Quantity | Manufacturer  | Part #              | Price (USD)     |  Sources       | Notes |
 | ---- |---------:| ------------- | ------------------- | ------------:|----------------| ----- |
 | mask1   | 1 | 3M | 6100(S)/6200(M)/6300(L) Respirator Mask | $35 | [3M][3m2] | example half-face respirator mask* |
 | mask2   | 1 | 3M | 6700(S)/6800(M)/6900(L) Full-Face Mask | $150 | [3M][3m3] | example full-face respirator mask* |
 | mask3   | 1 | 3M | M-206 Full Face Helmet | $230 | [3M][3m4] | example full-face respiratory helmet* |
 | mask4   | 1 | Allegro | Tyvek Full-Face Hood | $23 | [Z][9amzn] | example full-face hood* |
+| mask5   | 1 | Custom 3D print | Bayonet Inlet Adapter | $2 (material) | [3D][3d7] | Inlet Adapter for Bayonet-type masks |
+| mask6   | 1 | Custom 3D print | 6100/6200/6300 Outlet Plug | $1 (material) | [3D][3d8] | Plug for sealing the outlet valve of 6100/6200/6300 masks |
 
 *note, without modification, these masks do not filter the exhaled air.  They are useful for keeping the wearer safe, but not for keeping others safe from the wearer.
 
 Some of these can be modified enable full 2-way filtering.  Instructions are planned for this lower down on this page.
+
 
 ### Tools and useful consumables
 | Item | Quantity | Manufacturer  | Part #              | Price (USD)     |  Sources       | Notes |
@@ -82,10 +87,10 @@ Some of these can be modified enable full 2-way filtering.  Instructions are pla
 - Assorted heat-shrink tubing or electrical tape
 - Soldering iron and soldering supplies
 
-[3d1]: https://github.com/RespiraWorks/PAPR/blob/master/sandbox/PAPR-MAIN-V7.FCStd
-[3d2]: https://github.com/RespiraWorks/PAPR/blob/master/sandbox/PAPR-MAIN-V7.FCStd
-[3d3]: https://github.com/RespiraWorks/PAPR/blob/master/sandbox/PAPR-MAIN-V7.FCStd
-[3d4]: https://github.com/RespiraWorks/PAPR/blob/master/sandbox/PAPR-MAIN-V7.FCStd
+[3d1]: https://github.com/RespiraWorks/PAPR/blob/master/sandbox/release-candidates/PAPR-Rev9/PAPR-Body-V9.stl
+[3d2]: https://github.com/RespiraWorks/PAPR/blob/master/release-candidates/PAPR-Rev9/PAPR-BatteryBack-V9.stl
+[3d3]: https://github.com/RespiraWorks/PAPR/blob/master/release-candidates/PAPR-Rev9/PAPR-OutletAdapter-V9.stl
+[3d4]: https://github.com/RespiraWorks/PAPR/blob/master/release-candidates/PAPR-Rev9/PAPR-OutletKey-V9.stl
 [1ali]: https://www.aliexpress.com/item/32980201709.html
 [2ali]: https://www.aliexpress.com/item/4001161829981.html
 [3ali]: https://www.aliexpress.com/item/4000528106092.html
@@ -96,8 +101,8 @@ Some of these can be modified enable full 2-way filtering.  Instructions are pla
 [3amzn]: https://www.amazon.com/gp/product/B07QTHFNYF
 [4amzn]: https://www.amazon.com/gp/product/B08729Z2JX
 [5amzn]: https://www.amazon.com/Stainless-Lengths-Available-Machine-Phillips/dp/B0793D86TB
-[3d5]: https://github.com/RespiraWorks/PAPR/blob/master/sandbox/InletGastketJigs.FCStd
-[3d6]: https://github.com/RespiraWorks/PAPR/blob/master/sandbox/InletGastketJigs.FCStd
+[3d5]: https://github.com/RespiraWorks/PAPR/blob/master/release-candidates/tools/InletGasketJigInsideV1.stl
+[3d6]: https://github.com/RespiraWorks/PAPR/blob/master/release-candidates/tools/InletGasketJigOutsideV1.stl
 [6amzn]: https://www.amazon.com/gp/product/B01DJGLEUG
 [3m1]: https://www.3m.com/3M/en_US/company-us/all-3m-products/~/3M-Particulate-Filter-7093-P100-60-EA-Case/?N=5002385+3294776429&rt=rud
 [3m2]: https://www.3m.com/3M/en_US/company-us/all-3m-products/~/All-3M-Products/Personal-Protective-Equipment/Reusable-Respirators/Half-Facepiece-Respirators/3M-Half-Facepiece-Reusable-Respirators-6000-Series/?N=5002385+8711017+8720539+8720550+8720785+8726639+3294857497&rt=r3
@@ -109,6 +114,8 @@ Some of these can be modified enable full 2-way filtering.  Instructions are pla
 [3m4]: https://www.3m.com/3M/en_US/company-us/all-3m-products/~/3M-Versaflo-Respiratory-Faceshield-Assembly-M-206-37299-AAD-with-Comfort-Faceseal-1-EA-Case/?N=5002385+3292194464&preselect=3293786499&rt=rud
 [9amzn]: https://www.amazon.com/gp/product/B012D8N4I6/
 [1grgr]: https://www.grainger.com/product/3M-Inhalation-Port-Gasket-3PRG7
+[3d7]: https://github.com/RespiraWorks/PAPR/blob/master/release-candidates/PAPRmasks/PAPRmasks-BayonetInletAdapter-V1.stl
+[3d8]: https://github.com/RespiraWorks/PAPR/blob/master/release-candidates/PAPRmasks/PAPRmasks-6200-OutletPlug-V1.stl
 
 ## PAPR Assembly Instructions
 
@@ -182,7 +189,7 @@ Plug the other end of the pot wires into the driver.
 
 ![Driver Pot Connection](/assets/ElectricalAssembly16-Pot8.jpg)
 
-- **Step 6:** Use the gasket jigs to cut out the inlet gasket from the gasket material
+- **Step 6:** Use the gasket jigs to cut out the inlet gasket from the gasket material.
 
 First, make sure you have enough room to cut out the inlet gasket. Place the inner gasket jig and use it to make the inner cut.
 
@@ -200,9 +207,9 @@ Insert the completed inlet gasket into the housing.
 
 ![Inlet Gasket Placement](/assets/MechanicalAssembly5-Gasket5.jpg)
 
-- **Step 6:** Install the blower into the housing..
+- **Step 7:** Install the blower into the housing.
 
-Put them blower into the pocket over the gasket.
+Put the blower into the pocket over the gasket.
 
 |                            |                             |
 |:--------------------------:|:---------------------------:|
@@ -223,24 +230,24 @@ If for some reason you ever need to remove the outlet adapter key, wedge a screw
 ![Outlet Key Removal](/assets/MechanicalAssembly11-OutletKeyRemoval.jpg)
 
 
-- **Step 7:** Install the battery back, being careful not to pinch any wires.  It's easiest to slide it on, while holding the wires in place. Use the screws to secure the battery back onto the body. Install the battery in to the PAPR and secure it with the elastic cage.
+- **Step 8:** Install the battery back, being careful not to pinch any wires.  It's easiest to slide it on, while holding the wires in place. Use the screws to secure the battery back onto the body. Install the battery into the PAPR and secure it with the elastic cage.
 
 |                            |                             |                             |
 |:--------------------------:|:---------------------------:|:---------------------------:|
 | ![Slide on the Battery Back](/assets/MechanicalAssembly12-BatteryBack1.jpg) | ![Screw on the Battery Back](/assets/MechanicalAssembly13-BatteryBack2.jpg) | ![Battery Install](/assets/MechanicalAssembly14-BatteryBack3.jpg) |
 
 
-- **Step 8:** Take one of the filter gaskets and put it onto the inlet bayonet.
+- **Step 9:** Take one of the filter gaskets and put it onto the inlet bayonet.
 
 ![Inlet Filter Gasket](/assets/MechanicalAssembly15-InletGasket.jpg)
 
-- **Step 9:** Install the shoulder strap.
+- **Step 10:** Install the shoulder strap.
 
 |                            |                             |
 |:--------------------------:|:---------------------------:|
 | ![Install Shoulder straps](/assets/MechanicalAssembly16-ShoulderStrap1.jpg) | ![Install Shoulder Straps](/assets/MechanicalAssembly17-ShoulderStrap2.jpg) |
 
-- **Step 10:** Assembly Complete.  Plug in and test!  The blower should spin counter-clockwise.  After confirming proper operation, install the bayonet filter cartridge.  
+- **Step 11:** Assembly Complete.  Plug in and test!  The blower should spin counter-clockwise.  After confirming proper operation, install the bayonet filter cartridge.  
 
 ![Completed Assembly](/assets/Assembly-Complete.jpg)
 
@@ -250,15 +257,7 @@ If for some reason you ever need to remove the outlet adapter key, wedge a screw
 
 
 
-## COMING SOON: Mask Assembly Instructions
-
-Instructions and 3D print files to modify masks, hoods, and helmets for use with the PAPR.
-![Modified Masks](/assets/ModifiedMasks.jpg)
-
-Instructions on how to modify the outlet valves to enable filtering of the exhaled air.
-![Outlet Sealed](/assets/Sticker-ClosedOutlet.png)
-
-![Edwin in an M-206 Full Face Helmet](/assets/EdwinInPAPR-M206.jpg)
+## (Work in progress)Mask Assembly Instructions
 
 ### 6100/6200/6300 Half Facepiece Mask
 
@@ -269,6 +268,18 @@ Instructions on how to modify the outlet valves to enable filtering of the exhal
 **Step 3:** Remove the outlet valve cover.  A flat bladed screwdriver will help.  Leave the outlet valve membrane in place.  Put the gasket over the membrane, followed by the outlet plug.
 
 **Step 4:** Reinstall the outlet valve cover and mark it as sealed.
+
+### Coming Soon:
+
+Instructions and 3D print files to modify more masks, hoods, and helmets for use with the PAPR.
+![Modified Masks](/assets/ModifiedMasks.jpg)
+
+Instructions on how to modify the outlet valves to enable filtering of the exhaled air.
+![Outlet Sealed](/assets/Sticker-ClosedOutlet.png)
+
+![Edwin in an M-206 Full Face Helmet](/assets/EdwinInPAPR-M206.jpg)
+
+
 
 
 
