@@ -29,6 +29,7 @@ Also have a look at RespiraWorks' Ventilator project at https://respira.works an
 * **Z** = Amazon
 * **R** = RS computing
 * **3M** = 3M
+* **G** - Grainger
 
 ### Bill of Materials:
 | Item | Quantity | Manufacturer  | Part #              | Price (USD)     |  Sources       | Notes |
@@ -51,8 +52,9 @@ Also have a look at RespiraWorks' Ventilator project at https://respira.works an
 | papr15   | 1 | Amazon | 4ft CPAP hose | $10.57 | [Z][6amzn] | CPAP hose |
 | papr16   | 1 | 3M | 7093 Filter Cartridge (pair) | $30 | [3M][3m1] | example filter packs |
 | papr18   | about 6x6cm | McMaster-Carr | 1/8" Silicone Foam  | $22.22/12x12" | [C][1mcmc] | gasket material |
-| papr19   | 1 | OWO | (Optional) Upgraded potentiometer| $1.00 | [A][4ali] | nicer pot with knob and jam nut |
-| papr20   | 1 | JST | (Optional) JST connector kit and crimper | $40 | [Z][8amzn] | required connectors for upgraded potentiometer |
+| papr19   | 1 | 3M | Inlet Filter Gasket  | $2.01 | [G][1grgr] | Inlet Gasket for 6000-series filters |
+| papr20   | 1 | OWO | (Optional) Upgraded potentiometer| $1.00 | [A][4ali] | nicer pot with knob and jam nut |
+| papr21   | 1 | JST | (Optional) JST connector kit and crimper | $40 | [Z][8amzn] | required connectors for upgraded potentiometer |
 
 ### Mask/Helmet Examples
 | Item | Quantity | Manufacturer  | Part #              | Price (USD)     |  Sources       | Notes |
@@ -106,6 +108,7 @@ Some of these can be modified enable full 2-way filtering.  Instructions are pla
 [3m3]: https://www.3m.com/3M/en_US/company-us/all-3m-products/~/All-3M-Products/Personal-Protective-Equipment/Reusable-Respirators/Full-Facepiece-Respirators/3M-Full-Facepiece-Reusable-Respirators-6000-Series/?N=5002385+8711017+8720539+8720550+8720784+8726633+3294857497&rt=r3
 [3m4]: https://www.3m.com/3M/en_US/company-us/all-3m-products/~/3M-Versaflo-Respiratory-Faceshield-Assembly-M-206-37299-AAD-with-Comfort-Faceseal-1-EA-Case/?N=5002385+3292194464&preselect=3293786499&rt=rud
 [9amzn]: https://www.amazon.com/gp/product/B012D8N4I6/
+[1grgr]: https://www.grainger.com/product/3M-Inhalation-Port-Gasket-3PRG7
 
 ## PAPR Assembly Instructions
 
@@ -256,6 +259,18 @@ Instructions on how to modify the outlet valves to enable filtering of the exhal
 ![Outlet Sealed](/assets/Sticker-ClosedOutlet.png)
 
 ![Edwin in an M-206 Full Face Helmet](/assets/EdwinInPAPR-M206.jpg)
+
+### 6100/6200/6300 Half Facepiece Mask
+
+**Step 1:** Select one side of the mask to be the inlet side.  Remove the check valve membrane from the inlet valve on that side.  Install the 3D -Printed Bayonet Mask Adapter onto that side.
+
+**Step 2:** Use the 3D-Printed 6200 Outlet Plug as jig to cut out a gasket.
+
+**Step 3:** Remove the outlet valve cover.  A flat bladed screwdriver will help.  Leave the outlet valve membrane in place.  Put the gasket over the membrane, followed by the outlet plug.
+
+**Step 4:** Reinstall the outlet valve cover and mark it as sealed.
+
+
 
 
 18 July 2020 Update:
