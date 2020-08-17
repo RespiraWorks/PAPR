@@ -2,11 +2,13 @@
 
 ![Overview photo](/assets/PAPR-protoV7.jpg)
 
-This is a low-cost 3D-printable PAPR project by Edwin Chiu (github: inceptionev)
+This is a low-cost 3D-printable PAPR project started by Edwin Chiu as part of RespiraWorks (github: inceptionev)
 
-Most of the work is being done in the sandbox folder for now.  Once things are tested and working, files and instructions will move into the releases folder.  Most of the 3D files here were created in FreeCad v0.18.
+This project is currently at release-candidate stage.  The current files can be found in the release-candidates folder.  Most of the 3D files here were created in FreeCad v0.18.
 
-I am making this for myself, and for my loved ones who are medical workers and essential workers.  They wear masks all day to keep us safe, and supplies of disposable PPE are not keeping up.
+The most current instructions are those in this README.  They include instructions both for building the PAPR and for modifying off-the-shelf masks, hoods, and helmets for use with the PAPR.
+
+I am making this for myself, and for my loved ones who are medical workers and essential workers.  They wear masks all day to keep us safe, and supplies of disposable PPE are sometimes uncertain.
 
 The combination of a respirator mask, powered air delivery, and commonly-available bayonet-mount filter packs provides a better face-seal, more comfortable breathing, and more re-usability than disposable masks. 
 
@@ -29,7 +31,7 @@ Also have a look at RespiraWorks' Ventilator project at https://respira.works an
 * **Z** = Amazon
 * **R** = RS computing
 * **3M** = 3M
-* **G** - Grainger
+* **G** = Grainger
 
 ### Bill of Materials:
 | Item | Quantity | Manufacturer  | Part #              | Price (USD)     |  Sources       | Notes |
@@ -121,17 +123,17 @@ Some of these can be modified enable full 2-way filtering.  Instructions are pla
 
 ## PAPR Assembly Instructions
 
-- **Step 1:** Print out all the 3D printed parts and tools.  Tip: Select the print orientation such that supports fall on flat/inside faces, and avoid supports on text.  Note that depending on your printer, you may need to chase the screw threads with a 6-32 tap.
+**Step 1:** Print out all the 3D printed parts and tools.  Tip: Select the print orientation such that supports fall on flat/inside faces, and avoid supports on text.  Note that depending on your printer, you may need to chase the screw threads with a 6-32 tap.
 
 *photo here: suggested print orientations*
 
 The next few steps can be done while the parts are being printed.  The first part you need is the Gasket Jigs so if you print those first you can get moving.  The next part is the body, followed by the outlet adapter, and the outlet adapter key, and finally, the battery back.  The mask adapter can be printed separately, but it fits in nicely with the outlet adapter and outlet adapter key print.
 
-- **Step 2:** Gather your electrical parts.
+**Step 2:** Gather your electrical parts.
 
 ![Electrical Parts](/assets/ElectricalAssembly1-Parts.jpg)
 
-- **Step 3:** Prepare the PD Trigger.  Here will we set the voltage to 9V and add voltage protection to the output.  
+**Step 3:** Prepare the PD Trigger.  Here will we set the voltage to 9V and add voltage protection to the output.  
 
 Removing the solder bridge sets the PD mode to 9V.
 
@@ -153,7 +155,7 @@ Then solder the motor controller wires to the pads on the trigger.  Heat shrink 
 |:--------------------------:|:---------------------------:|
 | ![Power Wires](/assets/ElectricalAssembly5-PowerWires.jpg) | ![PD Trigger Heat Shrink](/assets/ElectricalAssembly6-PowerHeatshrink.jpg) |
 
-- **Step 4:** Attach the driver to the blower.  Make sure to observe the right pin assignments as pictured or the blower will spin backwards.
+**Step 4:** Attach the driver to the blower.  Make sure to observe the right pin assignments as pictured or the blower will spin backwards.
 
 Cut the White, Yellow, and Blue blower wires near the connector, preserving as much length as possible.  Cut some heat shrink tubing and put them on the blower wires before you proceed.
 
@@ -163,7 +165,7 @@ Trim the driver's black phase wires short and strip them as pictured.  Solder th
 |:--------------------------:|:---------------------------:|
 | ![Phase Wires](/assets/ElectricalAssembly7-PhaseWires.jpg) | ![Phase Wires Heat Shrink](/assets/ElectricalAssembly8-DriverHeatshrink.jpg) |
 
-- **Step 5:** Install the pot into the body.  If you are using the included pot that comes with the driver, most of these steps will be optional.  For the included pot, push the pot into the slot and through the shaft hole, and glue it in place with some hot glue.  If you are using the upgraded pot with knob, follow these instructions:
+**Step 5:** Install the pot into the body.  If you are using the included pot that comes with the driver, most of these steps will be optional.  For the included pot, push the pot into the slot and through the shaft hole, and glue it in place with some hot glue.  If you are using the upgraded pot with knob, follow these instructions:
 
 Take the included pot and cut off the wires, preserving the connector and wires.
 
@@ -191,7 +193,7 @@ Plug the other end of the pot wires into the driver.
 
 ![Driver Pot Connection](/assets/ElectricalAssembly16-Pot8.jpg)
 
-- **Step 6:** Use the gasket jigs to cut out the inlet gasket from the gasket material.
+**Step 6:** Use the gasket jigs to cut out the inlet gasket from the gasket material.
 
 First, make sure you have enough room to cut out the inlet gasket. Place the inner gasket jig and use it to make the inner cut.
 
@@ -209,7 +211,7 @@ Insert the completed inlet gasket into the housing.
 
 ![Inlet Gasket Placement](/assets/MechanicalAssembly5-Gasket5.jpg)
 
-- **Step 7:** Install the blower into the housing.
+**Step 7:** Install the blower into the housing.
 
 Put the blower into the pocket over the gasket.
 
@@ -232,24 +234,24 @@ If for some reason you ever need to remove the outlet adapter key, wedge a screw
 ![Outlet Key Removal](/assets/MechanicalAssembly11-OutletKeyRemoval.jpg)
 
 
-- **Step 8:** Install the battery back, being careful not to pinch any wires.  It's easiest to slide it on, while holding the wires in place. Use the screws to secure the battery back onto the body. Install the battery into the PAPR and secure it with the elastic cage.
+**Step 8:** Install the battery back, being careful not to pinch any wires.  It's easiest to slide it on, while holding the wires in place. Use the screws to secure the battery back onto the body. Install the battery into the PAPR and secure it with the elastic cage.
 
 |                            |                             |                             |
 |:--------------------------:|:---------------------------:|:---------------------------:|
 | ![Slide on the Battery Back](/assets/MechanicalAssembly12-BatteryBack1.jpg) | ![Screw on the Battery Back](/assets/MechanicalAssembly13-BatteryBack2.jpg) | ![Battery Install](/assets/MechanicalAssembly14-BatteryBack3.jpg) |
 
 
-- **Step 9:** Take one of the filter gaskets and put it onto the inlet bayonet.
+**Step 9:** Take one of the filter gaskets and put it onto the inlet bayonet.
 
 ![Inlet Filter Gasket](/assets/MechanicalAssembly15-InletGasket.jpg)
 
-- **Step 10:** Install the shoulder strap.
+**Step 10:** Install the shoulder strap.
 
 |                            |                             |
 |:--------------------------:|:---------------------------:|
 | ![Install Shoulder straps](/assets/MechanicalAssembly16-ShoulderStrap1.jpg) | ![Install Shoulder Straps](/assets/MechanicalAssembly17-ShoulderStrap2.jpg) |
 
-- **Step 11:** Assembly Complete.  Plug in and test!  The blower should spin counter-clockwise.  After confirming proper operation, install the bayonet filter cartridge.  
+**Step 11:** Assembly Complete.  Plug in and test!  The blower should spin counter-clockwise.  After confirming proper operation, install the bayonet filter cartridge.  
 
 ![Completed Assembly](/assets/Assembly-Complete.jpg)
 
@@ -259,15 +261,39 @@ If for some reason you ever need to remove the outlet adapter key, wedge a screw
 
 
 
-## (Work in progress)Mask Assembly Instructions
+## (Work in progress) Mask Assembly Instructions
 
 ### 6100/6200/6300 Half Facepiece Mask
 
-**Step 1:** Select one side of the mask to be the inlet side.  Remove the check valve membrane from the inlet valve on that side.  Install the bayonet filter onto that side.  Install the 3D-Printed Bayonet Mask Adapter onto the other side.
+Note that 6100 is the small side, 6200 is medium, and 6300 is large.  These instructions and the 3D-printed pieces will work with all three sizes.
 
-**Step 2:** Remove the outlet valve cover.  A flat bladed screwdriver will help.  Leave the outlet valve membrane in place.  Put one of the filter gasket over the membrane, followed by the outlet plug.
+These modifications to the mask make it compatible with the PAPR, while also plugging the exhale valve and repurposing one of the inlet filters as an outlet filter.  This converts the mask into a full 2-way PAPR that filters both inhaled and exhaled air.
 
-**Step 3:** Reinstall the outlet valve cover and mark it as sealed.
+**Step 1:** Select one side of the mask to be the outlet filter side.  Remove the check valve membrane from the one-way valve on that side.  Install the bayonet filter cartridge onto that side.  On the opposite side, leave the valve membrane in place and install the 3D-Printed Bayonet Mask Adapter.
+
+|                            |                             |                             |
+|:--------------------------:|:---------------------------:|:---------------------------:|
+| ![Remove Valve Membrane](/assets/6200Mask1-RemoveMembrane.jpg) | ![Install Parts](/assets/6200Mask2-InstallParts.jpg) | ![Bayonet Inlet Adapter](/assets/6200Mask3-BayonetInletAdapter.jpg) |
+
+**Step 2:** Remove the outlet valve cover.  A flat bladed screwdriver will help.  Leave the outlet valve membrane in place.  
+
+|                            |                             |
+|:--------------------------:|:---------------------------:|
+| ![Remove Outlet Cover](/assets/6200Mask4-RemoveOutletCover.jpg) | ![Leave Outlet Membrane in Place](/assets/6200Mask5-LeaveMembrane.jpg) |
+
+Put one of the 3M filter gaskets over the membrane, followed by the outlet plug.
+
+|                            |                             |
+|:--------------------------:|:---------------------------:|
+| ![Place Gasket](/assets/6200Mask6-PlaceGasket.jpg) | ![Place Plug](/assets/6200Mask7-PlacePlug.jpg) |
+
+**Step 3:** Reinstall the outlet valve cover, making sure it snaps into place, and mark it as sealed.
+
+|                            |                             |
+|:--------------------------:|:---------------------------:|
+| ![Reinstall Outlet Cover](/assets/6200Mask8-CloseOutletCover.jpg) | ![Label Outlet](/assets/6200Mask9-LabelOutlet.jpg) |
+
+![Completed Mask](/assets/6200Mask10-MaskComplete.jpg)
 
 ### Coming Soon:
 
