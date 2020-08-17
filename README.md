@@ -201,41 +201,50 @@ Insert the completed inlet gasket into the housing.
 
 Put them blower into the pocket over the gasket.
 
+|                            |                             |
+|:--------------------------:|:---------------------------:|
+| ![Place the Blower](/assets/MechanicalAssembly6-PlaceBlower.jpg) | ![Place the Blower](/assets/MechanicalAssembly7-BlowerPlaced.jpg) |
+
 Insert the outlet adapter through the hole at the top of the housing and install the retaining key.
 
-Route the wires back through the groove to the electronics pocket.  Fit the driver and PD trigger into this pocket.
+|                            |                             |                             |
+|:--------------------------:|:---------------------------:|:---------------------------:|
+| ![Outlet Adapter Placement](/assets/MechanicalAssembly8-Outlet1.jpg) | ![Outlet Key Placement](/assets/MechanicalAssembly9-Outlet2.jpg) | ![Outlet Complete](/assets/MechanicalAssembly10-Outlet3.jpg)
 
-Install the 6" USB-C cable into the PD trigger and route it as shown out the top of the housing, being careful not to catch the USB conenctor in a place that is narrower than its height.
+Route the wires back through the groove to the electronics pocket.  Fit the driver and PD trigger into this pocket.  Install the 6" USB-C cable into the PD trigger and route it as shown out the top of the housing, being careful not to catch the USB conenctor in a place that is narrower than its height.
 
 ![Electronics Layout](/assets/ElectricalAssembly17-Layout.jpg)
 
-*more photos needed to break down this process*
-
 If for some reason you ever need to remove the outlet adapter key, wedge a screwdriver into the provided notch and lever it out.
 
-*photo of here of how this works*
+![Outlet Key Removal](/assets/MechanicalAssembly11-OutletKeyRemoval.jpg)
 
-- **Step 7:** Install the battery back, being careful not to pinch any wires.  It's easiest to slide it on, while holding the wires in place.
 
-*WIP: photos of this process*
+- **Step 7:** Install the battery back, being careful not to pinch any wires.  It's easiest to slide it on, while holding the wires in place. Use the screws to secure the battery back onto the body. Install the battery in to the PAPR and secure it with the elastic cage.
 
-Use the screws to secure the battery back onto the body
+|                            |                             |                             |
+|:--------------------------:|:---------------------------:|:---------------------------:|
+| ![Slide on the Battery Back](/assets/MechanicalAssembly12-BatteryBack1.jpg) | ![Screw on the Battery Back](/assets/MechanicalAssembly13-BatteryBack2.jpg) | ![Battery Install](/assets/MechanicalAssembly14-BatteryBack3.jpg) |
 
-*WIP: photos of this process*
 
-- **Step 8:** Install the battery in to the PAPR and secure it with the elastic cage.
+- **Step 8:** Take one of the filter gaskets and put it onto the inlet bayonet.
 
-*WIP: photos of this process*
+![Inlet Filter Gasket](/assets/MechanicalAssembly15-InletGasket.jpg)
 
-- **Step 9:** Take one of the filter gaskets and put it onto the inlet bayonet.
+- **Step 9:** Install the shoulder strap.
 
-*WIP: photos of this process*
+|                            |                             |
+|:--------------------------:|:---------------------------:|
+| ![Install Shoulder straps](/assets/MechanicalAssembly16-ShoulderStrap1.jpg) | ![Install Shoulder Straps](/assets/MechanicalAssembly17-ShoulderStrap2.jpg) |
 
-- **Step 10:** Install the shoulder strap.
-
-- **Step 11:** Plug in and test!
+- **Step 10:** Assembly Complete.  Plug in and test!  The blower should spin counter-clockwise.  After confirming proper operation, install the bayonet filter cartridge.  
 
 ![Completed Assembly](/assets/Assembly-Complete.jpg)
+
+|                            |                             |
+|:--------------------------:|:---------------------------:|
+![Install Filter](/assets/MechanicalAssembly18-InstallFilter1.jpg) | ![Install Filter](/assets/MechanicalAssembly19-InstallFilter2.jpg)
+
 
 
 ## COMING SOON: Mask Assembly Instructions
@@ -245,6 +254,8 @@ Instructions and 3D print files to modify masks, hoods, and helmets for use with
 
 Instructions on how to modify the outlet valves to enable filtering of the exhaled air.
 ![Outlet Sealed](/assets/Sticker-ClosedOutlet.png)
+
+![Edwin in an M-206 Full Face Helmet](/assets/EdwinInPAPR-M206.jpg)
 
 
 18 July 2020 Update:
