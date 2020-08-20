@@ -225,7 +225,7 @@ Insert the outlet adapter through the hole at the top of the housing and install
 |:--------------------------:|:---------------------------:|:---------------------------:|
 | ![Outlet Adapter Placement](/assets/MechanicalAssembly8-Outlet1.jpg) | ![Outlet Key Placement](/assets/MechanicalAssembly9-Outlet2.jpg) | ![Outlet Complete](/assets/MechanicalAssembly10-Outlet3.jpg)
 
-Route the wires back through the groove to the electronics pocket.  Fit the driver and PD trigger into this pocket.  Install the 6" USB-C cable into the PD trigger and route it as shown out the top of the housing, being careful not to catch the USB conenctor in a place that is narrower than its height.
+Route the wires back through the groove to the electronics pocket.  Fit the driver and PD trigger into this pocket.  Install the 6" USB-C cable into the PD trigger and route it as shown out the top of the housing, being careful not to catch the USB connector in a place that is narrower than its height.
 
 ![Electronics Layout](/assets/ElectricalAssembly17-Layout.jpg)
 
