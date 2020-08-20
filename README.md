@@ -91,7 +91,7 @@ Some of these can be modified enable full 2-way filtering.  Instructions are pla
 - Assorted heat-shrink tubing or electrical tape
 - Soldering iron and soldering supplies
 
-[3d1]: https://github.com/RespiraWorks/PAPR/blob/master/sandbox/release-candidates/PAPR-Rev9/PAPR-Body-V9.stl
+[3d1]: https://github.com/RespiraWorks/PAPR/blob/master/release-candidates/PAPR-Rev9/PAPR-Body-V9.stl
 [3d2]: https://github.com/RespiraWorks/PAPR/blob/master/release-candidates/PAPR-Rev9/PAPR-BatteryBack-V9.stl
 [3d3]: https://github.com/RespiraWorks/PAPR/blob/master/release-candidates/PAPR-Rev9/PAPR-OutletAdapter-V9.stl
 [3d4]: https://github.com/RespiraWorks/PAPR/blob/master/release-candidates/PAPR-Rev9/PAPR-OutletKey-V9.stl
