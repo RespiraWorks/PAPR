@@ -86,7 +86,7 @@ Some of these can be modified enable full 2-way filtering.  Instructions are pla
 **Other Useful Tools**
 - Exacto blade
 - 6-32 tap
-- Philips screwdriver
+- Phillips screwdriver
 - Small flat-blade screwdriver (for removing outlet key)
 - Assorted heat-shrink tubing or electrical tape
 - Soldering iron and soldering supplies
@@ -127,7 +127,7 @@ Some of these can be modified enable full 2-way filtering.  Instructions are pla
 
 *photo here: suggested print orientations*
 
-The next few steps can be done while the parts are being printed.  The first part you need is the Gasket Jigs so if you print those first you can get moving.  The next part is the body, followed by the outlet adapter, and the outlet adapter key, and finally, the battery back.  The mask adapter can be printed separately, but it fits in nicely with the outlet adapter and outlet adapter key print.
+The next few steps can be done while the parts are being printed.  The first part you need is the Gasket Jigs so if you print those first you can get moving.  The next part is the body, followed by the outlet adapter and the outlet adapter key, and finally, the battery back.  The mask adapter can be printed separately, but it fits in nicely with the outlet adapter and outlet adapter key print.
 
 **Step 2:** Gather your electrical parts.
 
@@ -137,7 +137,7 @@ The next few steps can be done while the parts are being printed.  The first par
 
 Removing the solder bridge sets the PD mode to 9V.
 
-The diode and cap are necessary protect the battery from receiving damaging voltage kickback from the motor driver.  
+The diode and cap are necessary to protect the battery from receiving damaging voltage kickback from the motor driver.  
 
 |                            |                             |
 |:--------------------------:|:---------------------------:|
