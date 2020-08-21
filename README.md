@@ -53,7 +53,7 @@ Also have a look at RespiraWorks' Ventilator project at https://respira.works an
 | papr14   | 3 | Amazon | 6-32 x 3/8" Screws | $8.75 | [Z][5amzn] | Screws to secure back |
 | papr15   | 1 | Amazon | 4ft CPAP hose | $10.57 | [Z][6amzn] | CPAP hose |
 | papr16   | 1 | 3M | 7093 Filter Cartridge (pair) | $30 | [3M][3m1] | example filter packs |
-| papr18   | about 6x6cm | McMaster-Carr | 1/8" Silicone Foam  | $22.22/12x12" | [C][1mcmc] | gasket material |
+| papr18   | about 6x6cm | McMaster-Carr | 8785K82-8785K822 (Extra Soft)  | $22.22/12x12" | [C][1mcmc] | 1/8" Silicone Foam Gasket Material |
 | papr19   | 1 | 3M | Inlet Filter Gasket  | $2.01 | [G][1grgr] | Inlet Gasket for 6000-series filters |
 | papr20   | 1 | OWO | (Optional) Upgraded potentiometer| $1.00 | [A][4ali] | nicer pot with knob and jam nut |
 | papr21   | 1 | JST | (Optional) JST connector kit and crimper | $40 | [Z][8amzn] | required connectors for upgraded potentiometer |
@@ -140,6 +140,7 @@ The PAPR was designed and tested using the following setup.  You may need to mak
 - This allows the supports to come in at an angle that makes them easier to remove.
 - This is the maximum angle that still allows the supports needed to correctly print the bayonet teeth in the inlet.
 - This orientation preserves the quality of the printed text.
+
 |                            |                             |
 |:--------------------------:|:---------------------------:|
 | ![Print Orientation: Body Front](/assets/PrintOrientations1-BodyFront.PNG) | ![Print Orientation: Body Back](/assets/PrintOrientations2-BodyBack.PNG) |
@@ -148,6 +149,7 @@ The PAPR was designed and tested using the following setup.  You may need to mak
 - Tilt angle: 11° lean back
 - These minimal supports were confirmed to print reliably with the settings above.
 - This orientation keeps the inside surface of the back flat, which is required for pushing the blower into the gasket.
+
 |                            |                             |
 |:--------------------------:|:---------------------------:|
 | ![Print Orientation: Battery Back Front](/assets/PrintOrientations3-BatteryBackFront.PNG) | ![Print Orientation: Body Back Back](/assets/PrintOrientations4-BatteryBackback.PNG) |
