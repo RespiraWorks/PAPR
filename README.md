@@ -125,9 +125,49 @@ Some of these can be modified enable full 2-way filtering.  Instructions are pla
 
 **Step 1:** Print out all the 3D printed parts and tools.  Tip: Select the print orientation such that supports fall on flat/inside faces, and avoid supports on text.  Note that depending on your printer, you may need to chase the screw threads with a 6-32 tap.
 
-*photo here: suggested print orientations*
+The PAPR was designed and tested using the following setup.  You may need to make modifications for your printer/material/setup.
+- Printer: Elegoo Mars (SLA LCD Masking 3D Printer)
+- Material: Blend of 30% Siraya Tech Tenacious and 70% Siraya Tech Fast Grey
+ - This blend makes a material that is strong but also slightly flexible and thus resistant to cracking due to impacts.
+- Layer Thickness: 0.05mm
+- Exposure time (bottom layers): 30s
+- Expposure time (all other layers): 8s
 
-The next few steps can be done while the parts are being printed.  The first part you need is the Gasket Jigs so if you print those first you can get moving.  The next part is the body, followed by the outlet adapter and the outlet adapter key, and finally, the battery back.  The mask adapter can be printed separately, but it fits in nicely with the outlet adapter and outlet adapter key print.
+**Suggested Print Orientations**
+
+**Body**
+- Tilt angle: 3.75° lean back
+- This allows the supports to come in at an angle that makes them easier to remove.
+- This is the maximum angle that still allows the supports needed to correctly print the bayonet teeth in the inlet.
+- This orientation preserves the quality of the printed text.
+|                            |                             |
+|:--------------------------:|:---------------------------:|
+| ![Print Orientation: Body Front](/assets/PrintOrientations1-BodyFront.PNG) | ![Print Orientation: Body Back](/assets/PrintOrientations2-BodyBack.PNG) |
+
+**Battery Back**
+- Tilt angle: 11° lean back
+- These minimal supports were confirmed to print reliably with the settings above.
+- This orientation keeps the inside surface of the back flat, which is required for pushing the blower into the gasket.
+|                            |                             |
+|:--------------------------:|:---------------------------:|
+| ![Print Orientation: Battery Back Front](/assets/PrintOrientations3-BatteryBackFront.PNG) | ![Print Orientation: Body Back Back](/assets/PrintOrientations4-BatteryBackback.PNG) |
+
+**Small Parts**
+- Only the outlet adapter and outlet key are required to build the PAPR, but if you are making the 6100/6200/6300 mask mods, you can combine the inlet adapter and outlet plug on this print.
+- Tilt angle: 4° on the mask inlet adapter only.  This overhangs the front face, allowing supports to reach the engagement teeth.
+- These supports on the mask inlet adapter are necessary to make those teeth print correctly.
+- Supports are necessary on the outlet adapter as well, to prevent vacuum formation, which can distort or fail the print.
+- Supports are not technically necessary on th outlet plug and outlet key, but the rafts make removal from the build plate easier, and prevent bottom layer over-exposure distortions which you would otherwise need to remove during post-processing.
+
+![Print Orientation: Small Parts](/assets/PrintOrientations5-SmallParts.PNG)
+
+
+**Other Printing Tips:
+
+- Good curing is key.  I recommend 60min under 405nm 6W lights minimum.  Turn your parts to make sure no portions stay shadowed during curing.
+- Keep the alcohol was short, 5min maximum.  Parts left in alcohol for too long will swell and lose strength.  
+- The next build steps can be done while the parts are being printed.  
+- The first part you will need in the process is the Gasket Jigs so if you print those first you can get moving.  The next part is the body, followed by the outlet adapter and the outlet adapter key, and finally, the battery back. 
 
 **Step 2:** Gather your electrical parts.
 
