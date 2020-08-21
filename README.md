@@ -306,7 +306,7 @@ If for some reason you ever need to remove the outlet adapter key, wedge a screw
 
 
 
-## (Work in progress) Mask Assembly Instructions
+## Mask Assembly Instructions
 
 ### 6100/6200/6300 Half Facepiece Mask
 
