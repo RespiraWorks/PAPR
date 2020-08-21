@@ -90,6 +90,7 @@ Some of these can be modified enable full 2-way filtering.  Instructions are pla
 - Small flat-blade screwdriver (for removing outlet key)
 - Assorted heat-shrink tubing or electrical tape
 - Soldering iron and soldering supplies
+- Small, 2mm thick needle file
 
 [3d1]: https://github.com/RespiraWorks/PAPR/blob/master/release-candidates/PAPR-Rev9/PAPR-Body-V9.stl
 [3d2]: https://github.com/RespiraWorks/PAPR/blob/master/release-candidates/PAPR-Rev9/PAPR-BatteryBack-V9.stl
@@ -164,12 +165,14 @@ The PAPR was designed and tested using the following setup.  You may need to mak
 ![Print Orientation: Small Parts](/assets/PrintOrientations5-SmallParts.PNG)
 
 
-**Other Printing Tips:
+**Other Printing Tips:**
 
 - Good curing is key.  I recommend 60min under 405nm 6W lights minimum.  Turn your parts to make sure no portions stay shadowed during curing.
 - Keep the alcohol was short, 5min maximum.  Parts left in alcohol for too long will swell and lose strength.  
 - The next build steps can be done while the parts are being printed.  
 - The first part you will need in the process is the Gasket Jigs so if you print those first you can get moving.  The next part is the body, followed by the outlet adapter and the outlet adapter key, and finally, the battery back. 
+- You may need to chase the threads in the body with a 6-32 tap.
+- Having a 2mm thick needle file can be useful for clearing residue from the supports in the outlet adapter key slot.
 
 **Step 2:** Gather your electrical parts.
 
