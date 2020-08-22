@@ -24,22 +24,23 @@ Also have a look at RespiraWorks' Ventilator project at https://respira.works an
 ----
 
 ## Table of Contents
-1. **[Materials]**
-- [Parts To Build The PAPR]
-- [Mask/Helment Parts]
-- [Tools and Useful Consumables]
-- [Parts for Testing]
+- [RespiraWorks PAPR Project](#respiraworks-papr-project)
+  * [Features:](#features-)
+  * [Materials](#materials)
+    + [Parts to Build the PAPR](#parts-to-build-the-papr)
+    + [Mask/Helmet Parts](#mask-helmet-parts)
+    + [Tools and Useful Consumables](#tools-and-useful-consumables)
+    + [Parts for Testing](#parts-for-testing)
+  * [PAPR Assembly Instructions](#papr-assembly-instructions)
+  * [Mask Assembly Instructions](#mask-assembly-instructions)
+    + [6100/6200/6300 Half Facepiece Mask](#6100-6200-6300-half-facepiece-mask)
+  * [Testing](#testing)
+    + [To test the 6200-series masks](#to-test-the-6200-series-masks)
+    + [To test the filter cartridges](#to-test-the-filter-cartridges)
+  * [Future Work](#future-work)
+  * [Design Diary](#design-diary)
 
-2. **[PAPR Assembly Instructions]**
-
-3. **[Mask Assembly Instructions]**
-- [6100/6200/6300 Half Facepiece Mask]
-
-4. **[Testing]**
-- [To test the 6200-series masks]
-- [To test the filter cartridges]
-
-5. **[Future Work]**
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 
 ----
