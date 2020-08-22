@@ -402,6 +402,10 @@ For reference, with the PAPR design described here, and a well-fitted 6200 mask 
 - Run the Portacount Fit Test.
 - If you are getting poor results, you may want to test your filter cartridges separately to determine if the filter or the PAPR or the mask is at fault.
 
+|                            |                             |
+|:--------------------------:|:---------------------------:|
+| ![Mask Sampling Adapter](/assets/MaskTesting1-SamplingAdapter.jpg) | ![Portacount Hookup](/assets/MaskTesting2-Portacount.jpg) |
+
 ### To test the filter cartridges
 
 - Refer to the Portacount manual for proper set up and required calibration checks before use.
