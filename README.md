@@ -431,18 +431,18 @@ Instructions on how to modify the outlet valves to enable filtering of the exhal
 
 18 July 2020 Update:
 
-![Front Exploded View](ExplodedViewFront-protoV7.PNG)
+![Front Exploded View](/assets/ExplodedViewFront-protoV7.PNG)
 
-![Back Exploded View](ExplodedViewBack-protoV7.PNG)
+![Back Exploded View](/assets/ExplodedViewBack-protoV7.PNG)
 
-![This one protects me](PAPR-protoV7-protectsMe.jpg)
+![This one protects me](/assets/PAPR-protoV7-protectsMe.jpg)
 
-![This one protects you](PAPR-protoV7-protectsYou.jpg)
+![This one protects you](/assets/PAPR-protoV7-protectsYou.jpg)
 
 10 July 2020 Udpate:
 
-![Front Exploded View](20200710-Exploded-View-Screenshot-Front.PNG)
+![Front Exploded View](/assets/20200710-Exploded-View-Screenshot-Front.PNG)
 
-![Back Exploded View](20200710-Exploded-View-Screenshot-Back.PNG)
+![Back Exploded View](/assets/20200710-Exploded-View-Screenshot-Back.PNG)
 
-![3DprintParts](3DprintParts.jpg)
+![3DprintParts](/assets/3DprintParts.jpg)
