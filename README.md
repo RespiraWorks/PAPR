@@ -122,7 +122,7 @@ Some of these can be modified enable full 2-way filtering.  Instructions are pla
 [1grgr]: https://www.grainger.com/product/3M-Inhalation-Port-Gasket-3PRG7
 [3d7]: https://github.com/RespiraWorks/PAPR/blob/master/release-candidates/PAPRmasks/PAPRmasks-BayonetInletAdapter-V1.stl
 [3d8]: https://github.com/RespiraWorks/PAPR/blob/master/release-candidates/PAPRmasks/PAPRmasks-6200-OutletPlug-V1.stl
-[3d9]: https://github.com/RespiraWorks/PAPR/blob/master/sandbox/PAPRmasks/PAPR-OutletAdapter-V9-with_MGHT.STL
+[3d9]: https://github.com/RespiraWorks/PAPR/blob/master/sandbox/PAPR-OutletAdapter-V9-with_MGHT.STL
 
 ## PAPR Assembly Instructions
 
