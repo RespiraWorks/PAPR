@@ -126,10 +126,10 @@ The following adapters can be used with a Portacount machine to test the efficac
 | papr-test1   | 1 | Custom 3D print | 6200SamplingAdapter | $1 (material) | [3D][3d10] | Portacount Sampling Adapter for 6200-series Masks |
 | papr-test2   | 1 | Custom 3D print | BayonetFilterTester | $1 (material) | [3D][3d11] | Portacount Sampling Adapter for Bayonet-style Filter Cartridges |
 
-[3d1]: https://github.com/RespiraWorks/PAPR/blob/master/release-candidates/PAPR-Rev9/PAPR-Body-V9.stl
-[3d2]: https://github.com/RespiraWorks/PAPR/blob/master/release-candidates/PAPR-Rev9/PAPR-BatteryBack-V9.stl
-[3d3]: https://github.com/RespiraWorks/PAPR/blob/master/release-candidates/PAPR-Rev9/PAPR-OutletAdapter-V9.stl
-[3d4]: https://github.com/RespiraWorks/PAPR/blob/master/release-candidates/PAPR-Rev9/PAPR-OutletKey-V9.stl
+[3d1]: /release-candidates/PAPR-Rev9/PAPR-Body-V9.stl
+[3d2]: /release-candidates/PAPR-Rev9/PAPR-BatteryBack-V9.stl
+[3d3]: /release-candidates/PAPR-Rev9/PAPR-OutletAdapter-V9.stl
+[3d4]: /release-candidates/PAPR-Rev9/PAPR-OutletKey-V9.stl
 [1ali]: https://www.aliexpress.com/item/32980201709.html
 [2ali]: https://www.aliexpress.com/item/4001161829981.html
 [3ali]: https://www.aliexpress.com/item/4000528106092.html
@@ -140,8 +140,8 @@ The following adapters can be used with a Portacount machine to test the efficac
 [3amzn]: https://www.amazon.com/gp/product/B07QTHFNYF
 [4amzn]: https://www.amazon.com/gp/product/B08729Z2JX
 [5amzn]: https://www.amazon.com/Stainless-Lengths-Available-Machine-Phillips/dp/B0793D86TB
-[3d5]: https://github.com/RespiraWorks/PAPR/blob/master/release-candidates/tools/InletGasketJigInsideV1.stl
-[3d6]: https://github.com/RespiraWorks/PAPR/blob/master/release-candidates/tools/InletGasketJigOutsideV1.stl
+[3d5]: /release-candidates/tools/InletGasketJigInsideV1.stl
+[3d6]: /release-candidates/tools/InletGasketJigOutsideV1.stl
 [6amzn]: https://www.amazon.com/gp/product/B01DJGLEUG
 [3m1]: https://www.3m.com/3M/en_US/company-us/all-3m-products/~/3M-Particulate-Filter-7093-P100-60-EA-Case/?N=5002385+3294776429&rt=rud
 [3m2]: https://www.3m.com/3M/en_US/company-us/all-3m-products/~/All-3M-Products/Personal-Protective-Equipment/Reusable-Respirators/Half-Facepiece-Respirators/3M-Half-Facepiece-Reusable-Respirators-6000-Series/?N=5002385+8711017+8720539+8720550+8720785+8726639+3294857497&rt=r3
@@ -153,11 +153,11 @@ The following adapters can be used with a Portacount machine to test the efficac
 [3m4]: https://www.3m.com/3M/en_US/company-us/all-3m-products/~/3M-Versaflo-Respiratory-Faceshield-Assembly-M-206-37299-AAD-with-Comfort-Faceseal-1-EA-Case/?N=5002385+3292194464&preselect=3293786499&rt=rud
 [9amzn]: https://www.amazon.com/gp/product/B012D8N4I6/
 [1grgr]: https://www.grainger.com/product/3M-Inhalation-Port-Gasket-3PRG7
-[3d7]: https://github.com/RespiraWorks/PAPR/blob/master/release-candidates/PAPRmasks/PAPRmasks-BayonetInletAdapter-V1.stl
-[3d8]: https://github.com/RespiraWorks/PAPR/blob/master/release-candidates/PAPRmasks/PAPRmasks-6200-OutletPlug-V1.stl
-[3d9]: https://github.com/RespiraWorks/PAPR/blob/master/sandbox/PAPR-OutletAdapter-V9-with_MGHT.STL
-[3d10]: https://github.com/RespiraWorks/PAPR/blob/master/release-candidates/PAPRtest/PAPRtest-Portacount-6200SamplingAdapter.stl
-[3d11]: https://github.com/RespiraWorks/PAPR/blob/master/release-candidates/PAPRtest/PAPRtest-Portacount-BayonetFilterTester.stl
+[3d7]: /release-candidates/PAPRmasks/PAPRmasks-BayonetInletAdapter-V1.stl
+[3d8]: /release-candidates/PAPRmasks/PAPRmasks-6200-OutletPlug-V1.stl
+[3d9]: /sandbox/PAPR-OutletAdapter-V9-with_MGHT.STL
+[3d10]: /release-candidates/PAPRtest/PAPRtest-Portacount-6200SamplingAdapter.stl
+[3d11]: /release-candidates/PAPRtest/PAPRtest-Portacount-BayonetFilterTester.stl
 
 ----
 
