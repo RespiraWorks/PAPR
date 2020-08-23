@@ -71,6 +71,7 @@ Parts for modifying and adapting masks and helmets for use with the PAPR
 | mask5   | 1 | Custom 3D print | Bayonet Inlet Adapter | $2 (material) | [3D][3d7] | Inlet Adapter for Bayonet-type masks |
 | mask6   | 1 | Custom 3D print | 6100/6200/6300 Outlet Plug | $1 (material) | [3D][3d8] | Plug for sealing the outlet valve of 6100/6200/6300 masks |
 | mask7   | 1 | 3M | Inlet Filter Gasket  | $2.01 | [G][1grgr] | Inlet Gasket used as part of above outlet sealing |
+| mask8   | 1 | Custom 3d print | Male Garden Hose Thread Adapter for Outlet  | $1.01 | [3d][1grgr] | MGHT adapter sealing |
 
 *note, without modification, these masks do not filter the exhaled air.  They are useful for keeping the wearer safe, but not for keeping others safe from the wearer.
 
