@@ -21,7 +21,31 @@ The combination of a respirator mask, powered air delivery, and commonly-availab
 
 Also have a look at RespiraWorks' Ventilator project at https://respira.works and https://github.com/RespiraWorks/Ventilator
 
-### Purchasing Source Key
+----
+
+## Table of Contents
+- [RespiraWorks PAPR Project](#respiraworks-papr-project)
+  * [Features:](#features-)
+  * [Materials](#materials)
+    + [Parts to Build the PAPR](#parts-to-build-the-papr)
+    + [Mask/Helmet Parts](#mask-helmet-parts)
+    + [Tools and Useful Consumables](#tools-and-useful-consumables)
+    + [Parts for Testing](#parts-for-testing)
+  * [PAPR Assembly Instructions](#papr-assembly-instructions)
+  * [Mask Assembly Instructions](#mask-assembly-instructions)
+    + [6100/6200/6300 Half Facepiece Mask](#6100-6200-6300-half-facepiece-mask)
+  * [Testing](#testing)
+    + [To test the 6200-series masks](#to-test-the-6200-series-masks)
+    + [To test the filter cartridges](#to-test-the-filter-cartridges)
+  * [Future Work](#future-work)
+  * [Design Diary](#design-diary)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
+----
+
+## Materials
 
 * **A** = Aliexpress
 * **C** = McMaster-Carr
@@ -33,7 +57,8 @@ Also have a look at RespiraWorks' Ventilator project at https://respira.works an
 * **3M** = 3M
 * **G** = Grainger
 
-### Bill of Materials:
+### Parts to Build the PAPR
+
 | Item | Quantity | Manufacturer  | Part #              | Price (USD)     |  Sources       | Notes |
 | ---- |---------:| ------------- | ------------------- | ------------:|----------------| ----- |
 | papr1   | 1 | Custom 3D print | TopLevelPart-Body | $6 (material) | [3D][3d1] | Main Body |
@@ -78,7 +103,7 @@ Parts for modifying and adapting masks and helmets for use with the PAPR
 Some of these can be modified enable full 2-way filtering.  Instructions are planned for this lower down on this page.
 
 
-### Tools and useful consumables
+### Tools and Useful Consumables
 | Item | Quantity | Manufacturer  | Part #              | Price (USD)     |  Sources       | Notes |
 | ---- |---------:| ------------- | ------------------- | ------------:|----------------| ----- |
 | papr-tool1   | 1 | Custom 3D print | InletGasketJigInsideV1 | $1 (material) | [3D][3d5] | Jig for cutting inlet gasket |
@@ -93,10 +118,18 @@ Some of these can be modified enable full 2-way filtering.  Instructions are pla
 - Soldering iron and soldering supplies
 - Small, 2mm thick needle file
 
-[3d1]: https://github.com/RespiraWorks/PAPR/blob/master/release-candidates/PAPR-Rev9/PAPR-Body-V9.stl
-[3d2]: https://github.com/RespiraWorks/PAPR/blob/master/release-candidates/PAPR-Rev9/PAPR-BatteryBack-V9.stl
-[3d3]: https://github.com/RespiraWorks/PAPR/blob/master/release-candidates/PAPR-Rev9/PAPR-OutletAdapter-V9.stl
-[3d4]: https://github.com/RespiraWorks/PAPR/blob/master/release-candidates/PAPR-Rev9/PAPR-OutletKey-V9.stl
+### Parts for Testing
+The following adapters can be used with a Portacount machine to test the efficacy of the PAPR, masks, and the filter cartridges it uses.  Beware of counterfeit filter cartridges!  
+
+| Item | Quantity | Manufacturer  | Part #              | Price (USD)     |  Sources       | Notes |
+| ---- |---------:| ------------- | ------------------- | ------------:|----------------| ----- |
+| papr-test1   | 1 | Custom 3D print | 6200SamplingAdapter | $1 (material) | [3D][3d10] | Portacount Sampling Adapter for 6200-series Masks |
+| papr-test2   | 1 | Custom 3D print | BayonetFilterTester | $1 (material) | [3D][3d11] | Portacount Sampling Adapter for Bayonet-style Filter Cartridges |
+
+[3d1]: /release-candidates/PAPR-Rev9/PAPR-Body-V9.stl
+[3d2]: /release-candidates/PAPR-Rev9/PAPR-BatteryBack-V9.stl
+[3d3]: /release-candidates/PAPR-Rev9/PAPR-OutletAdapter-V9.stl
+[3d4]: /release-candidates/PAPR-Rev9/PAPR-OutletKey-V9.stl
 [1ali]: https://www.aliexpress.com/item/32980201709.html
 [2ali]: https://www.aliexpress.com/item/4001161829981.html
 [3ali]: https://www.aliexpress.com/item/4000528106092.html
@@ -107,8 +140,8 @@ Some of these can be modified enable full 2-way filtering.  Instructions are pla
 [3amzn]: https://www.amazon.com/gp/product/B07QTHFNYF
 [4amzn]: https://www.amazon.com/gp/product/B08729Z2JX
 [5amzn]: https://www.amazon.com/Stainless-Lengths-Available-Machine-Phillips/dp/B0793D86TB
-[3d5]: https://github.com/RespiraWorks/PAPR/blob/master/release-candidates/tools/InletGasketJigInsideV1.stl
-[3d6]: https://github.com/RespiraWorks/PAPR/blob/master/release-candidates/tools/InletGasketJigOutsideV1.stl
+[3d5]: /release-candidates/tools/InletGasketJigInsideV1.stl
+[3d6]: /release-candidates/tools/InletGasketJigOutsideV1.stl
 [6amzn]: https://www.amazon.com/gp/product/B01DJGLEUG
 [3m1]: https://www.3m.com/3M/en_US/company-us/all-3m-products/~/3M-Particulate-Filter-7093-P100-60-EA-Case/?N=5002385+3294776429&rt=rud
 [3m2]: https://www.3m.com/3M/en_US/company-us/all-3m-products/~/All-3M-Products/Personal-Protective-Equipment/Reusable-Respirators/Half-Facepiece-Respirators/3M-Half-Facepiece-Reusable-Respirators-6000-Series/?N=5002385+8711017+8720539+8720550+8720785+8726639+3294857497&rt=r3
@@ -120,9 +153,13 @@ Some of these can be modified enable full 2-way filtering.  Instructions are pla
 [3m4]: https://www.3m.com/3M/en_US/company-us/all-3m-products/~/3M-Versaflo-Respiratory-Faceshield-Assembly-M-206-37299-AAD-with-Comfort-Faceseal-1-EA-Case/?N=5002385+3292194464&preselect=3293786499&rt=rud
 [9amzn]: https://www.amazon.com/gp/product/B012D8N4I6/
 [1grgr]: https://www.grainger.com/product/3M-Inhalation-Port-Gasket-3PRG7
-[3d7]: https://github.com/RespiraWorks/PAPR/blob/master/release-candidates/PAPRmasks/PAPRmasks-BayonetInletAdapter-V1.stl
-[3d8]: https://github.com/RespiraWorks/PAPR/blob/master/release-candidates/PAPRmasks/PAPRmasks-6200-OutletPlug-V1.stl
-[3d9]: https://github.com/RespiraWorks/PAPR/blob/master/sandbox/PAPR-OutletAdapter-V9-with_MGHT.STL
+[3d7]: /release-candidates/PAPRmasks/PAPRmasks-BayonetInletAdapter-V1.stl
+[3d8]: /release-candidates/PAPRmasks/PAPRmasks-6200-OutletPlug-V1.stl
+[3d9]: /sandbox/PAPR-OutletAdapter-V9-with_MGHT.STL
+[3d10]: /release-candidates/PAPRtest/PAPRtest-Portacount-6200SamplingAdapter.stl
+[3d11]: /release-candidates/PAPRtest/PAPRtest-Portacount-BayonetFilterTester.stl
+
+----
 
 ## PAPR Assembly Instructions
 
@@ -306,7 +343,7 @@ If for some reason you ever need to remove the outlet adapter key, wedge a screw
 |:--------------------------:|:---------------------------:|
 ![Install Filter](/assets/MechanicalAssembly18-InstallFilter1.jpg) | ![Install Filter](/assets/MechanicalAssembly19-InstallFilter2.jpg)
 
-
+----
 
 ## Mask Assembly Instructions
 
@@ -342,7 +379,43 @@ Put one of the 3M filter gaskets over the membrane, followed by the outlet plug.
 
 ![Completed Mask](/assets/6200Mask10-MaskComplete.jpg)
 
-### Coming Soon:
+----
+
+## Testing
+
+The following procesures are inteneded to be used with a Portacount machine to test the efficacy of the PAPR, masks, and the filter cartridges it uses.  Beware of counterfeit filter cartridges!  
+
+The Portacount (and similar devices) measures the concentration of particulates in an air stream by counting the number of particles per volume sampled.  It tests filters and mask fit by comparing the sample air inside a respirator to the outside ambient air.  The fit factor or protection factor is simply the number of particles counted in the ambient sample divided by the number of particles counted in the respirator sample, for the same volume.
+
+A proper P100 filter should register a protection factor of 1000 or greater (> 99.9% of particles filtered).
+
+A properly-fitting resipirator should at minimum deliver a fit factor / protection factor of 100.  Things like poor-fitting masks, loose masks, leaks in the hose or PAPR assembly, and poor-quality filter cratridges can all contribute to lower protection factors.
+
+For reference, with the PAPR design described here, and a well-fitted 6200 mask modified per the instructions on this page, I have measured a protection factor of > 1100 consistently (as sampled inside the mask using the testing adapter below).  500 is generally considered the lower limit for a non-PAPR half-facepiece mask.
+
+### To test the 6200-series masks
+
+- Refer to the Portacount manual for proper set up and required calibration checks before use.
+- Make sure a filter gasket has been placed on the 6200 Sampling adapter.
+- Place the 6200 Sampling Adapter between the mask and the exhale filter cartridge (if you have performed the PAPR mods to this mask, this is on the side where the one-way valve membrane has been removed).
+- Connect the Portacount sampling tube to the sample outlet on the 6200 Sampling Adapter.
+- Run the Portacount Fit Test.
+- If you are getting poor results, you may want to test your filter cartridges separately to determine if the filter or the PAPR or the mask is at fault.
+
+|                            |                             |
+|:--------------------------:|:---------------------------:|
+| ![Mask Sampling Adapter](/assets/MaskTesting1-SamplingAdapter.jpg) | ![Portacount Hookup](/assets/MaskTesting2-Portacount.jpg) |
+
+### To test the filter cartridges
+
+- Refer to the Portacount manual for proper set up and required calibration checks before use.
+- Make sure a filter gasket has been placed on the Bayonet Filter Tester.
+- Connect the Portacount sampling tube to the sample outlet on the Bayonet Filter Tester.
+- Run the Portacount Fit Test.
+
+----
+
+## Future Work
 
 Instructions and 3D print files to modify more masks, hoods, and helmets for use with the PAPR.
 ![Modified Masks](/assets/ModifiedMasks.jpg)
@@ -352,25 +425,24 @@ Instructions on how to modify the outlet valves to enable filtering of the exhal
 
 ![Edwin in an M-206 Full Face Helmet](/assets/EdwinInPAPR-M206.jpg)
 
+----
 
-
-
-
+## Design Diary
 
 18 July 2020 Update:
 
-![Front Exploded View](ExplodedViewFront-protoV7.PNG)
+![Front Exploded View](/assets/ExplodedViewFront-protoV7.PNG)
 
-![Back Exploded View](ExplodedViewBack-protoV7.PNG)
+![Back Exploded View](/assets/ExplodedViewBack-protoV7.PNG)
 
-![This one protects me](PAPR-protoV7-protectsMe.jpg)
+![This one protects me](/assets/PAPR-protoV7-protectsMe.jpg)
 
-![This one protects you](PAPR-protoV7-protectsYou.jpg)
+![This one protects you](/assets/PAPR-protoV7-protectsYou.jpg)
 
 10 July 2020 Udpate:
 
-![Front Exploded View](20200710-Exploded-View-Screenshot-Front.PNG)
+![Front Exploded View](/assets/20200710-Exploded-View-Screenshot-Front.PNG)
 
-![Back Exploded View](20200710-Exploded-View-Screenshot-Back.PNG)
+![Back Exploded View](/assets/20200710-Exploded-View-Screenshot-Back.PNG)
 
-![3DprintParts](3DprintParts.jpg)
+![3DprintParts](/assets/3DprintParts.jpg)
