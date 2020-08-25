@@ -117,6 +117,7 @@ Some of these can be modified enable full 2-way filtering.  Instructions are pla
 - Assorted heat-shrink tubing or electrical tape
 - Soldering iron and soldering supplies
 - Small, 2mm thick needle file
+- Can of compressed gas cleaner with a spray straw, like "Dust-Off" or similar, for clearing out the screw holes.
 
 ### Parts for Testing
 The following adapters can be used with a Portacount machine to test the efficacy of the PAPR, masks, and the filter cartridges it uses.  Beware of counterfeit filter cartridges!  
@@ -180,6 +181,9 @@ The PAPR was designed and tested using the following setup.  You may need to mak
 - This allows the supports to come in at an angle that makes them easier to remove.
 - This is the maximum angle that still allows the supports needed to correctly print the bayonet teeth in the inlet.
 - This orientation preserves the quality of the printed text.
+- Most printing processes will require the 6-32 treads the body be chased with a 6-32 tap.  I recommend doing this step before post-curing, while the resin is still soft.
+- Whether you chase the threads before or after post-curing, you MUST clear any uncured resin out of the thread holes before post-curing.  If the residual resin cures inside the holes, it will plug the threds.  A can of compressed gas keyboard cleaner that comes with a straw for directing the flow can be very useful here.
+- Having a 2mm thick needle file can be useful for clearing residue from the supports in the outlet adapter key slot.
 
 |                            |                             |
 |:--------------------------:|:---------------------------:|
@@ -207,11 +211,9 @@ The PAPR was designed and tested using the following setup.  You may need to mak
 **Other Printing Tips:**
 
 - Good curing is key.  I recommend 60min under 405nm 6W lights minimum.  Turn your parts to make sure no portions stay shadowed during curing.
-- Keep the alcohol wash short, 5min maximum.  Parts left in alcohol for too long will swell and lose strength.  
+- Keep the alcohol wash short, 5min maximum.  Parts left in alcohol for too long will swell and lose strength.
 - The next build steps can be done while the parts are being printed.  
-- The first part you will need in the process is the Gasket Jigs so if you print those first you can get moving.  The next part is the body, followed by the outlet adapter and the outlet adapter key, and finally, the battery back. 
-- You may need to chase the threads in the body with a 6-32 tap.
-- Having a 2mm thick needle file can be useful for clearing residue from the supports in the outlet adapter key slot.
+- The first part you will need in the following assembly process is the Gasket Jigs so if you print those first you can get moving.  The next part is the body, followed by the outlet adapter and the outlet adapter key, and finally, the battery back. 
 
 **Step 2:** Gather your electrical parts.
 
