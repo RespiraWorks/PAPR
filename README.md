@@ -65,23 +65,22 @@ Also have a look at RespiraWorks' Ventilator project at https://respira.works an
 | papr2   | 1 | Custom 3D print | TopLevelPart-BatteryBack | $2 (material) | [3D][3d2]    | Battery Mount |
 | papr3   | 1 | Custom 3D print | TopLevelPart-OutletAdapter | $1 (material) | [3D][3d3]    | 22mm Taper Hose Outlet |
 | papr4   | 1 | Custom 3D print | TopLevelPart-OutletKey | $6 (material)  | [3D][3d4]    | key to hold the outlet in |
-| papr5   | 1 | Custom 3D print | TopLevelPart-MaskAdapter | $2 (material) | [3D][3d5] | Adapter for bayonet-style mask |
-| papr6   | 1 | Wonsmart | WS7040-12-X200 | $36 | [A][1ali] | 12V Blower |
-| papr7   | 1 | Generic | PotBrushlessController | $10.11 | [A][2ali] | Potentiometer-Controlled Brushless Motor Driver |
-| papr8   | 1 | Generic | 9V/12V USB-C Trigger | $3.15 | [A][3ali] | USB-C 12V/9V PD Trigger |
-| papr9   | 1 | Amazon | 6-inch USB-C Cable | $3.50 | [Z][1azmn] | 6-inch USB-C Cable |
-| papr10   | 1 | Amazon | Carry Strap | $12.59 | [Z][2amzn] | Carry Strap |
-| papr11   | 1 | Littelfuse | SMAJ9.0A | $0.41 | [K][1dk] | TVS diode |
+| papr5   | 1 | Wonsmart | WS7040-12-X200 | $36 | [A][1ali] | 12V Blower |
+| papr6   | 1 | Generic | PotBrushlessController | $10.11 | [A][2ali] | Potentiometer-Controlled Brushless Motor Driver |
+| papr7   | 1 | Generic | 9V/12V USB-C Trigger | $3.15 | [A][3ali] | USB-C 12V/9V PD Trigger |
+| papr8   | 1 | Amazon | 6-inch USB-C Cable | $3.50 | [Z][1azmn] | 6-inch USB-C Cable |
+| papr9   | 1 | Amazon | Carry Strap | $12.59 | [Z][2amzn] | Carry Strap |
+| papr10   | 1 | Littelfuse | SMAJ9.0A | $0.41 | [K][1dk] | TVS diode |
 | papr11   | 1 | Various | CAP 0805 4.7uF 50V X5R | $0.27 | [K][2dk] | Filtering Cap - manufacturer stock rotates often, so search for an in-stock part |
 | papr12   | 1 | Amazon | Elastic Phone Holder | $10 | [Z][3amzn] | Elastic band to hold battery |
 | papr13   | 1 | Conxwan | 26800mAh battery | $27 | [Z][4amzn] | 18W USB-C Battery |
 | papr14   | 3 | Amazon | 6-32 x 3/8" Screws | $8.75 | [Z][5amzn] | Screws to secure back |
 | papr15   | 1 | Amazon | 4ft CPAP hose | $10.57 | [Z][6amzn] | CPAP hose |
 | papr16   | 1 | 3M | 7093 Filter Cartridge (pair) | $30 | [3M][3m1] | example filter packs |
-| papr18   | about 6x6cm | McMaster-Carr | 8785K82-8785K822 (Extra Soft)  | $22.22/12x12" | [C][1mcmc] | 1/8" Silicone Foam Gasket Material |
-| papr19   | 1 | 3M | Inlet Filter Gasket  | $2.01 | [G][1grgr] | Inlet Gasket for 6000-series filters |
-| papr20   | 1 | OWO | (Optional) Upgraded potentiometer| $1.00 | [A][4ali] | nicer pot with knob and jam nut |
-| papr21   | 1 | JST | (Optional) JST connector kit and crimper | $40 | [Z][8amzn] | required connectors for upgraded potentiometer |
+| papr17   | about 6x6cm | McMaster-Carr | 8785K82-8785K822 (Extra Soft)  | $22.22/12x12" | [C][1mcmc] | 1/8" Silicone Foam Gasket Material |
+| papr18   | 1 | 3M | Inlet Filter Gasket  | $2.01 | [G][1grgr] | Inlet Gasket for 6000-series filters |
+| papr19   | 1 | OWO | (Optional) Upgraded potentiometer| $1.00 | [A][4ali] | nicer pot with knob and jam nut |
+| papr20   | 1 | JST | (Optional) JST connector kit and crimper | $40 | [Z][8amzn] | required connectors for upgraded potentiometer |
 
 
 ### Mask/Helmet Parts
@@ -108,6 +107,8 @@ Some of these can be modified enable full 2-way filtering.  Instructions are pla
 | ---- |---------:| ------------- | ------------------- | ------------:|----------------| ----- |
 | papr-tool1   | 1 | Custom 3D print | InletGasketJigInsideV1 | $1 (material) | [3D][3d5] | Jig for cutting inlet gasket |
 | papr-tool2   | 1 | Custom 3D print | InletGasketJigOutsideV1 | $1 (material) | [3D][3d6] | Jig for cutting inlet gasket |
+| papr-tool3   | 1 | Irwin Tools | Tap kit | $30 | [Z][10amzn] | Tap kit for chasing body threads |
+
 
 **Other Useful Tools**
 - Exacto blade
@@ -117,6 +118,7 @@ Some of these can be modified enable full 2-way filtering.  Instructions are pla
 - Assorted heat-shrink tubing or electrical tape
 - Soldering iron and soldering supplies
 - Small, 2mm thick needle file
+- Can of compressed gas cleaner with a spray straw, like "Dust-Off" or similar, for clearing out the screw holes.
 
 ### Parts for Testing
 The following adapters can be used with a Portacount machine to test the efficacy of the PAPR, masks, and the filter cartridges it uses.  Beware of counterfeit filter cartridges!  
@@ -158,6 +160,7 @@ The following adapters can be used with a Portacount machine to test the efficac
 [3d9]: /sandbox/PAPR-OutletAdapter-V9-with_MGHT.STL
 [3d10]: /release-candidates/PAPRtest/PAPRtest-Portacount-6200SamplingAdapter.stl
 [3d11]: /release-candidates/PAPRtest/PAPRtest-Portacount-BayonetFilterTester.stl
+[10amzn]: https://www.amazon.com/Tools-Machine-Fractional-12-Piece-24605/dp/B00004YOAZ
 
 ----
 
@@ -180,6 +183,9 @@ The PAPR was designed and tested using the following setup.  You may need to mak
 - This allows the supports to come in at an angle that makes them easier to remove.
 - This is the maximum angle that still allows the supports needed to correctly print the bayonet teeth in the inlet.
 - This orientation preserves the quality of the printed text.
+- Most printing processes will require that the 6-32 threads the body be chased with a 6-32 tap.  I recommend doing this step before post-curing, while the resin is still soft.
+- Whether you chase the threads before or after post-curing, you MUST clear any uncured resin out of the thread holes before post-curing.  If the residual resin cures inside the holes, it will plug the threads.  A can of compressed gas keyboard cleaner that comes with a straw for directing the flow can be very useful here.
+- Having a 2mm thick needle file can be useful for clearing residue from the supports in the outlet adapter key slot.
 
 |                            |                             |
 |:--------------------------:|:---------------------------:|
@@ -207,11 +213,9 @@ The PAPR was designed and tested using the following setup.  You may need to mak
 **Other Printing Tips:**
 
 - Good curing is key.  I recommend 60min under 405nm 6W lights minimum.  Turn your parts to make sure no portions stay shadowed during curing.
-- Keep the alcohol wash short, 5min maximum.  Parts left in alcohol for too long will swell and lose strength.  
+- Keep the alcohol wash short, 5min maximum.  Parts left in alcohol for too long will swell and lose strength.
 - The next build steps can be done while the parts are being printed.  
-- The first part you will need in the process is the Gasket Jigs so if you print those first you can get moving.  The next part is the body, followed by the outlet adapter and the outlet adapter key, and finally, the battery back. 
-- You may need to chase the threads in the body with a 6-32 tap.
-- Having a 2mm thick needle file can be useful for clearing residue from the supports in the outlet adapter key slot.
+- The first part you will need in the following assembly process is the Gasket Jigs so if you print those first you can get moving.  The next part is the body, followed by the outlet adapter and the outlet adapter key, and finally, the battery back. 
 
 **Step 2:** Gather your electrical parts.
 
