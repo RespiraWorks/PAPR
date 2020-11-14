@@ -15,7 +15,7 @@ The combination of a respirator mask, powered air delivery, and commonly-availab
 ## Features:
 - Uses commonly-available 6000-series or 7093 bayonet filter packs, which have many options in N95, P95, and P100 types.
 - Powered by a USB-C PD battery pack (as long as it is 9V @ 2.0A capable)
-- Packs can be swapped out for 8hrs+ of runtime per 20000mAH battery.
+- Packs can be swapped out for 20hrs+ of runtime per 26800mAH battery.
 - If used with a modified respirator mask, it can be made to filter both inhaled and exhaled air.
 - It can be used with a variety of full-head hoods, full-face masks, and respirator masks.
 
@@ -164,7 +164,7 @@ The following adapters can be used with a Portacount machine to test the efficac
 ## Useful Media
 | Graphic for printing Outlet Stickers | Info cards (useful on planes or for the curious) |
 |:--------------------------:|:---------------------------:|
-| ![Outlet Stickers](/assets/Sticker-ClosedOutlet.png) | [![Print Orientation: Body Back](/assets/PAPRCardPhoto.jpg)]["/assets/PAPR Info Cards - Print on Avery 5871.pdf"] | 
+| ![Outlet Stickers](/assets/Sticker-ClosedOutlet.png) | [![Print Orientation: Body Back](/assets/PAPRCardPhoto.jpg)](/assets/PAPR-Info-Cards-Print-on-Avery-5871.pdf) | 
 
 ----
 
