@@ -1,6 +1,6 @@
 # RespiraWorks PAPR Project
 
-![Overview photo](/assets/PAPR-protoV7.jpg)
+![Overview photo](/assets/Overview-PAPR-Collage.JPG)
 
 This is a low-cost 3D-printable PAPR project started by Edwin Chiu as part of RespiraWorks (github: inceptionev)
 
@@ -82,7 +82,6 @@ Also have a look at RespiraWorks' Ventilator project at https://respira.works an
 | papr19   | 1 | OWO | (Optional) Upgraded potentiometer| $1.00 | [A][4ali] | nicer pot with knob and jam nut |
 | papr20   | 1 | JST | (Optional) JST connector kit and crimper | $40 | [Z][8amzn] | required connectors for upgraded potentiometer |
 
-
 ### Mask/Helmet Parts
 Parts for modifying and adapting masks and helmets for use with the PAPR
 
@@ -161,6 +160,11 @@ The following adapters can be used with a Portacount machine to test the efficac
 [3d10]: /release-candidates/PAPRtest/PAPRtest-Portacount-6200SamplingAdapter.stl
 [3d11]: /release-candidates/PAPRtest/PAPRtest-Portacount-BayonetFilterTester.stl
 [10amzn]: https://www.amazon.com/Tools-Machine-Fractional-12-Piece-24605/dp/B00004YOAZ
+
+## Useful Media
+| Graphic for printing Outlet Stickers | Info cards (useful on planes or for the curious) |
+|:--------------------------:|:---------------------------:|
+| ![Outlet Stickers](/assets/Sticker-ClosedOutlet.png) | [![Print Orientation: Body Back](/assets/PAPRCardPhoto.jpg)]["/assets/PAPR Info Cards - Print on Avery 5871.pdf"] | 
 
 ----
 
