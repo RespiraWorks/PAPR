@@ -162,7 +162,7 @@ The following adapters can be used with a Portacount machine to test the efficac
 [10amzn]: https://www.amazon.com/Tools-Machine-Fractional-12-Piece-24605/dp/B00004YOAZ
 
 ## Useful Media
-| Graphic for printing Outlet Stickers | Info cards (useful on planes or for the curious) |
+| Graphic for printing Outlet Stickers | Info cards (useful on planes or for the curious) Click image for PDF |
 |:--------------------------:|:---------------------------:|
 | ![Outlet Stickers](/assets/Sticker-ClosedOutlet.png) | [![Print Orientation: Body Back](/assets/PAPRCardPhoto.jpg)](/assets/PAPR-Info-Cards-Print-on-Avery-5871.pdf) | 
 
