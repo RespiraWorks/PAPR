@@ -78,7 +78,7 @@ Also have a look at RespiraWorks' Ventilator project at https://respira.works an
 | papr15   | 1 | Amazon | 4ft CPAP hose | $10.57 | [Z][6amzn] | CPAP hose |
 | papr16   | 1 | 3M | 7093 Filter Cartridge (pair) | $30 | [3M][3m1] | example filter packs |
 | papr17   | about 6x6cm | McMaster-Carr | 8785K82-8785K822 (Extra Soft)  | $22.22/12x12" | [C][1mcmc] | 1/8" Silicone Foam Gasket Material |
-| papr18   | 1 | 3M | Inlet Filter Gasket  | $2.01 | [G][1grgr] | Inlet Gasket for 6000-series filters |
+| papr18   | 1 | 3M | Filter Gasket  | $2.01 | [G][1grgr] | Inlet Gasket for 6000-series filters |
 | papr19   | 1 | OWO | (Optional) Upgraded potentiometer| $1.00 | [A][4ali] | nicer pot with knob and jam nut |
 | papr20   | 1 | JST | (Optional) JST connector kit and crimper | $40 | [Z][8amzn] | required connectors for upgraded potentiometer |
 
@@ -104,8 +104,8 @@ Some of these can be modified enable full 2-way filtering.  Instructions are pla
 ### Tools and Useful Consumables
 | Item | Quantity | Manufacturer  | Part #              | Price (USD)     |  Sources       | Notes |
 | ---- |---------:| ------------- | ------------------- | ------------:|----------------| ----- |
-| papr-tool1   | 1 | Custom 3D print | InletGasketJigInsideV1 | $1 (material) | [3D][3d5] | Jig for cutting inlet gasket |
-| papr-tool2   | 1 | Custom 3D print | InletGasketJigOutsideV1 | $1 (material) | [3D][3d6] | Jig for cutting inlet gasket |
+| papr-tool1   | 1 | Custom 3D print | InletGasketJigInsideV1 | $1 (material) | [3D][3d5] | Jig for cutting blower inlet gasket |
+| papr-tool2   | 1 | Custom 3D print | InletGasketJigOutsideV1 | $1 (material) | [3D][3d6] | Jig for cutting blower inlet gasket |
 | papr-tool3   | 1 | Irwin Tools | Tap kit | $30 | [Z][10amzn] | Tap kit for chasing body threads |
 
 
@@ -285,9 +285,9 @@ Plug the other end of the pot wires into the driver.
 
 ![Driver Pot Connection](/assets/ElectricalAssembly16-Pot8.jpg)
 
-**Step 6:** Use the gasket jigs to cut out the inlet gasket from the gasket material.
+**Step 6:** Use the gasket jigs to cut out the blower inlet gasket from the gasket material.
 
-First, make sure you have enough room to cut out the inlet gasket. Place the inner gasket jig and use it to make the inner cut.
+First, make sure you have enough room to cut out the blower inlet gasket. Place the inner gasket jig and use it to make the inner cut.
 
 |                            |                             |
 |:--------------------------:|:---------------------------:|
@@ -299,7 +299,7 @@ Place the outer gasket jig into the hole you just cut and use it to make the out
 |:--------------------------:|:---------------------------:|
 | ![Outer Gasket Jig](/assets/MechanicalAssembly3-Gasket3.jpg) | ![Gasket outer cut](/assets/MechanicalAssembly4-Gasket4.jpg) |
 
-Insert the completed inlet gasket into the housing.
+Insert the completed blower inlet gasket into the housing.
 
 ![Inlet Gasket Placement](/assets/MechanicalAssembly5-Gasket5.jpg)
 
