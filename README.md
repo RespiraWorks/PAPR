@@ -72,7 +72,8 @@ Also have a look at RespiraWorks' Ventilator project at https://respira.works an
 | papr9   | 1 | Amazon | Carry Strap | $12.59 | [Z][2amzn] | Carry Strap |
 | papr10   | 1 | Littelfuse | SMAJ9.0A | $0.41 | [K][1dk] | TVS diode |
 | papr11   | 1 | Various | CAP 0805 4.7uF 50V X5R | $0.27 | [K][2dk] | Filtering Cap - manufacturer stock rotates often, so search for an in-stock part |
-| papr12   | 1 | Amazon | Elastic Phone Holder | $10 | [Z][3amzn] | Elastic band to hold battery |
+| papr12a   | 1 | Amazon | Elastic Phone Holder | $10 | [Z][3amzn] | Elastic band to hold battery |
+| papr12b   | 1 | AliExpress | Elastic Phone Holder | $0.50 | [A][5ali] | Elastic band to hold battery |
 | papr13   | 1 | Conxwan | 26800mAh battery | $27 | [Z][4amzn] | 18W USB-C Battery |
 | papr14   | 3 | Amazon | 6-32 x 3/8" Screws | $8.75 | [Z][5amzn] | Screws to secure back |
 | papr15   | 1 | Amazon | 4ft CPAP hose | $10.57 | [Z][6amzn] | CPAP hose |
@@ -160,6 +161,7 @@ The following adapters can be used with a Portacount machine to test the efficac
 [3d10]: /release-candidates/PAPRtest/PAPRtest-Portacount-6200SamplingAdapter.stl
 [3d11]: /release-candidates/PAPRtest/PAPRtest-Portacount-BayonetFilterTester.stl
 [10amzn]: https://www.amazon.com/Tools-Machine-Fractional-12-Piece-24605/dp/B00004YOAZ
+[5ali]: https://www.aliexpress.com/item/4000278505876.html
 
 ## Useful Media
 | Graphic for printing Outlet Stickers | Info cards (useful on planes or for the curious) Click image for PDF |
