@@ -1,6 +1,6 @@
 # RespiraWorks PAPR Project
 
-![Overview photo](/assets/PAPR-protoV7.jpg)
+![Overview photo](/assets/Overview-PAPR-Collage.JPG)
 
 This is a low-cost 3D-printable PAPR project started by Edwin Chiu as part of RespiraWorks (github: inceptionev)
 
@@ -15,7 +15,7 @@ The combination of a respirator mask, powered air delivery, and commonly-availab
 ## Features:
 - Uses commonly-available 6000-series or 7093 bayonet filter packs, which have many options in N95, P95, and P100 types.
 - Powered by a USB-C PD battery pack (as long as it is 9V @ 2.0A capable)
-- Packs can be swapped out for 8hrs+ of runtime per 20000mAH battery.
+- Packs can be swapped out for 20hrs+ of runtime per 26800mAH battery.
 - If used with a modified respirator mask, it can be made to filter both inhaled and exhaled air.
 - It can be used with a variety of full-head hoods, full-face masks, and respirator masks.
 
@@ -72,16 +72,16 @@ Also have a look at RespiraWorks' Ventilator project at https://respira.works an
 | papr9   | 1 | Amazon | Carry Strap | $12.59 | [Z][2amzn] | Carry Strap |
 | papr10   | 1 | Littelfuse | SMAJ9.0A | $0.41 | [K][1dk] | TVS diode |
 | papr11   | 1 | Various | CAP 0805 4.7uF 50V X5R | $0.27 | [K][2dk] | Filtering Cap - manufacturer stock rotates often, so search for an in-stock part |
-| papr12   | 1 | Amazon | Elastic Phone Holder | $10 | [Z][3amzn] | Elastic band to hold battery |
+| papr12a   | 1 | Amazon | Elastic Phone Holder | $10 | [Z][3amzn] | Elastic band to hold battery |
+| papr12b   | 1 | AliExpress | Elastic Phone Holder | $0.50 | [A][5ali] | Elastic band to hold battery |
 | papr13   | 1 | Conxwan | 26800mAh battery | $27 | [Z][4amzn] | 18W USB-C Battery |
 | papr14   | 3 | Amazon | 6-32 x 3/8" Screws | $8.75 | [Z][5amzn] | Screws to secure back |
 | papr15   | 1 | Amazon | 4ft CPAP hose | $10.57 | [Z][6amzn] | CPAP hose |
 | papr16   | 1 | 3M | 7093 Filter Cartridge (pair) | $30 | [3M][3m1] | example filter packs |
 | papr17   | about 6x6cm | McMaster-Carr | 8785K82-8785K822 (Extra Soft)  | $22.22/12x12" | [C][1mcmc] | 1/8" Silicone Foam Gasket Material |
-| papr18   | 1 | 3M | Inlet Filter Gasket  | $2.01 | [G][1grgr] | Inlet Gasket for 6000-series filters |
+| papr18   | 1 | 3M | Filter Gasket  | $2.01 | [G][1grgr] | Inlet Gasket for 6000-series filters |
 | papr19   | 1 | OWO | (Optional) Upgraded potentiometer| $1.00 | [A][4ali] | nicer pot with knob and jam nut |
 | papr20   | 1 | JST | (Optional) JST connector kit and crimper | $40 | [Z][8amzn] | required connectors for upgraded potentiometer |
-
 
 ### Mask/Helmet Parts
 Parts for modifying and adapting masks and helmets for use with the PAPR
@@ -105,8 +105,8 @@ Some of these can be modified enable full 2-way filtering.  Instructions are pla
 ### Tools and Useful Consumables
 | Item | Quantity | Manufacturer  | Part #              | Price (USD)     |  Sources       | Notes |
 | ---- |---------:| ------------- | ------------------- | ------------:|----------------| ----- |
-| papr-tool1   | 1 | Custom 3D print | InletGasketJigInsideV1 | $1 (material) | [3D][3d5] | Jig for cutting inlet gasket |
-| papr-tool2   | 1 | Custom 3D print | InletGasketJigOutsideV1 | $1 (material) | [3D][3d6] | Jig for cutting inlet gasket |
+| papr-tool1   | 1 | Custom 3D print | InletGasketJigInsideV1 | $1 (material) | [3D][3d5] | Jig for cutting blower inlet gasket |
+| papr-tool2   | 1 | Custom 3D print | InletGasketJigOutsideV1 | $1 (material) | [3D][3d6] | Jig for cutting blower inlet gasket |
 | papr-tool3   | 1 | Irwin Tools | Tap kit | $30 | [Z][10amzn] | Tap kit for chasing body threads |
 
 
@@ -161,6 +161,12 @@ The following adapters can be used with a Portacount machine to test the efficac
 [3d10]: /release-candidates/PAPRtest/PAPRtest-Portacount-6200SamplingAdapter.stl
 [3d11]: /release-candidates/PAPRtest/PAPRtest-Portacount-BayonetFilterTester.stl
 [10amzn]: https://www.amazon.com/Tools-Machine-Fractional-12-Piece-24605/dp/B00004YOAZ
+[5ali]: https://www.aliexpress.com/item/4000278505876.html
+
+## Useful Media
+| Graphic for printing Outlet Stickers | Info cards (useful on planes or for the curious) Click image for PDF |
+|:--------------------------:|:---------------------------:|
+| ![Outlet Stickers](/assets/Sticker-ClosedOutlet.png) | [![Print Orientation: Body Back](/assets/PAPRCardPhoto.jpg)](/assets/PAPR-Info-Cards-Print-on-Avery-5871.pdf) | 
 
 ----
 
@@ -281,9 +287,9 @@ Plug the other end of the pot wires into the driver.
 
 ![Driver Pot Connection](/assets/ElectricalAssembly16-Pot8.jpg)
 
-**Step 6:** Use the gasket jigs to cut out the inlet gasket from the gasket material.
+**Step 6:** Use the gasket jigs to cut out the blower inlet gasket from the gasket material.
 
-First, make sure you have enough room to cut out the inlet gasket. Place the inner gasket jig and use it to make the inner cut.
+First, make sure you have enough room to cut out the blower inlet gasket. Place the inner gasket jig and use it to make the inner cut.
 
 |                            |                             |
 |:--------------------------:|:---------------------------:|
@@ -295,7 +301,7 @@ Place the outer gasket jig into the hole you just cut and use it to make the out
 |:--------------------------:|:---------------------------:|
 | ![Outer Gasket Jig](/assets/MechanicalAssembly3-Gasket3.jpg) | ![Gasket outer cut](/assets/MechanicalAssembly4-Gasket4.jpg) |
 
-Insert the completed inlet gasket into the housing.
+Insert the completed blower inlet gasket into the housing.
 
 ![Inlet Gasket Placement](/assets/MechanicalAssembly5-Gasket5.jpg)
 
