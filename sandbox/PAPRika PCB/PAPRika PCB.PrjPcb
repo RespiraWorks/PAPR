@@ -88,6 +88,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FTFMEXSH
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for PAPRika PCB\Design Rule Check - PAPRika PCB.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
