@@ -92,6 +92,10 @@ DocumentUniqueId=FTFMEXSH
 DocumentPath=Project Outputs for PAPRika PCB\Design Rule Check - PAPRika PCB.html
 DItemRevisionGUID=
 
+[Parameter1]
+Name=title
+Value=PAPRika
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
