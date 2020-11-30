@@ -1,0 +1,13 @@
+Designator,Description,Value,Manufacturer,Manufacturer P/N,PCB Package,Do Not Populate,Quantity
+
+"C1, C3","Cap 0603","10nF","Samsung","CL10B103KB8NNNC","0603","","2"
+"C2","Cap 0805","4.7uF","Samsung","CL21A475KBQNNNE","0805","","1"
+"C4","Cap 0603","4.7uF","Samsung","CL10A475KP8NNNC","0603","","1"
+"D1, D3","Ultra-Fast Signal Diode, Silicon, 100V, 300mA","","Diodes Inc.","1N4148W-7-F","SOD-123","","2"
+"D2","TVS DIODE 9V 15.4V DO214AC","","Littelfuse","SMAJ9.0A","DO-214AC","","1"
+"J1","JST 4-pin Male PCB Straight 2.00mm","","JST","B4B-PH-SM4-TB(LF)(SN)","","","1"
+"R1","POT 5K OHM 1/20W CARBON LINEAR","5K","Bourns","PTD901-2015K-B502","PTD901","","1"
+"R2","Res 0603","0","Yageo","RC0603FR-070RL","0603","DNP","1"
+"TP1, TP2","Keystone 5001 BLACK TH Mini Testpoint","","Keystone","5001","TP-5001-BLACK","DNP","2"
+"U1","IC OSC SGL TIMER 100KHZ 8-SOIC","","Texas Instruments","NE555DR","8-SOIC","","1"
+"U2","IC REG LINEAR 5V 150MA SOT23-5","","Diodes Inc.","AP2204K-5.0TRG1","5-SOT23","","1"
