@@ -2,7 +2,7 @@
 
 ![Overview photo](/assets/Overview-PAPR-Collage.JPG)
 
-***Important Disclaimer: This is a prototype device, offered free-of-charge as a public service during the COVID emergency, and no claim, guarantee, or warranty of performance or suitablity for any purpose is offered or implied.  This device has not be independently certified or approved.  Use of this design or any derivatives thereof is entirely at your own risk.  By using any of these materials, you acknowledge that you have read and understood the [full disclaimer](#full-disclaimer) at the end of this document.  Please do not use these materials if you do not understand and accept these risks.***
+***Important Disclaimer: This is a prototype device, offered free-of-charge as a public service during the COVID emergency, and no claim, guarantee, or warranty of performance or suitablity for any purpose is offered or implied.  This device has not been independently certified or approved.  Use of this design or any derivatives thereof is entirely at your own risk.  By using any of these materials, you acknowledge that you have read and understood the [full disclaimer](#full-disclaimer) at the end of this document.  Please do not use these materials if you do not understand and accept these risks.***
 
 This is a low-cost 3D-printable PAPR project started by Edwin Chiu as part of RespiraWorks (github: inceptionev)
 
