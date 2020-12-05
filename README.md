@@ -2,6 +2,8 @@
 
 ![Overview photo](/assets/Overview-PAPR-Collage.JPG)
 
+***Important Disclaimer: This is a prototype device, offered free-of-charge as a public service during the COVID emergency, with no claim, guarantee, or warranty offered or implied of performance or suitablity for any purpose.  This device has not be independently certified or approved.  Use of this design or any derivatives thereof is entirely at your own risk.  By using any of these materials, you acknowledge that you have read and understood the [full disclaimer](#full-disclaimer) at the end of this document.  Please do not use these materials if you do not understand and accept these risks.***
+
 This is a low-cost 3D-printable PAPR project started by Edwin Chiu as part of RespiraWorks (github: inceptionev)
 
 This project is currently at release-candidate stage.  The current files can be found in the release-candidates folder.  Most of the 3D files here were created in FreeCad v0.18.
@@ -456,3 +458,21 @@ Instructions on how to modify the outlet valves to enable filtering of the exhal
 ![Back Exploded View](/assets/20200710-Exploded-View-Screenshot-Back.PNG)
 
 ![3DprintParts](/assets/3DprintParts.jpg)
+
+## Full Disclaimer
+
+**Regulatory Notice**
+
+This product has not been cleared for medical use by the U.S. Food and Drug Administration.  The product should only be used during the declared COVID-19 public health emergency if FDA cleared or approved products are unavailable.  This product has not been evaluated for the prevention of specific diseases or infections, the filtering of surgical smoke or plumes, the filtering of specific amounts of viruses or bacteria, or the killing or reduction of the amount of viruses, bacteria or fungi.  Not recommended for use in a surgical setting where exposure to liquid, bodily or other hazardous fluids may be expected or for use in a clinical setting where infection risk level through inhalation exposure is high.  Not recommended for use in the presence of a high intensity heat source or flammable gas.  This product is intended for use by a single user.
+
+**Liability Notice**
+
+By using this product, the end user assumes all risks associated with its use, including the voiding of manufacturers’ warranties of devices with which the product is used, and agrees to hold harmless and waive any claims against RespiraWorks, its officers, employees and agents, and other persons or companies which may have contributed to the design and specifications.  EXCEPT WHERE SPECIFICALLY PROHIBITED BY LAW, NO WARRANTIES OF ANY KIND ARE OFFERED FOR THE PRODUCT DESIGN AND SPECIFICATIONS, INCLUDING WARRANTIES OF NON-INFRINGEMENT AND FITNESS FOR A PARTICULAR PURPOSE.
+
+**Intellectual Property License**
+
+Individuals and organizations are free to use, copy, and share this design and specifications, including for commercial manufacture, without payment of any fees or charges, and for the duration of the declared COVID-19 public health emergency only, but may not assert ownership in the design and specifications.
+
+**Notice to Manufacturers**
+
+Individuals or organizations that manufacture products utilizing this design and specifications are responsible for any federal or state regulatory requirements that apply to the manufacture of products intended for medical use, and are responsible for informing health care providers to which the product is supplied that they are responsible for decisions regarding appropriate personal protective equipment for their personnel.  The distribution or sale of products manufactured using this design and specifications must include the Regulatory Notice and the Liability Notice as set forth above displayed prominently on packaging and marketing materials, as well as any information required by the FDA or other governmental authorities.
