@@ -36,6 +36,7 @@ Also have a look at RespiraWorks' Ventilator project at https://respira.works an
   * [PAPR Assembly Instructions](#papr-assembly-instructions)
   * [Mask Assembly Instructions](#mask-assembly-instructions)
     + [6100/6200/6300 Half Facepiece Mask](#6100-6200-6300-half-facepiece-mask)
+	+ [M-200 Series Full Face Helmet](#m-200-series-full-face-helmet)
   * [Testing](#testing)
     + [To test the 6200-series masks](#to-test-the-6200-series-masks)
     + [To test the filter cartridges](#to-test-the-filter-cartridges)
@@ -397,11 +398,13 @@ Put one of the 3M filter gaskets over the membrane, followed by the outlet plug.
 
 ### M-200 Series Full Face Helmet
 
+![Edwin in an M-206 Full Face Helmet](/assets/EdwinInPAPR-M206.jpg)
+
 With a 3D printed adapter, the 3M M-200 series Full Face Helmet can be used with the PAPR.
 
 Note that the M-200 helmet does not have exhale filtering nor tight sealing.  It relies on positive pressure to provide the wearer filtered air, and exhausts exhaled air around the top of the head and the neck.  Unlike the modified 6200 Half Facepiece setup described above, this will not provide filtering if the PAPR is off.
 
-**Step 1:** Print both parts, the adapter body, listed as mask9 in the Bill of Materials above, and the retaining ring, listed as mask10.  For suggested print orientations and supports, you may refer to the [chitubox project file][release-candidates/PAPRmasks/_PAPRmasks-M200-HelmetAdapter-RC1.chitubox].
+**Step 1:** Print both parts, the adapter body, listed as mask9 in the Bill of Materials above, and the retaining ring, listed as mask10.  For suggested print orientations and supports, you may refer to the [chitubox project file](release-candidates/PAPRmasks/_PAPRmasks-M200-HelmetAdapter-RC1.chitubox).
 
 Take the retaining ring and orient it as shown, with the arrows pointing towards the helmet side.  Place one side of the ring into one slot in the body, and stretch the other side over the edge like a rubber band.  Pull it over until it clicks into the other side.
 
