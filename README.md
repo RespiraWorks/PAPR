@@ -21,6 +21,10 @@ The combination of a respirator mask, powered air delivery, and commonly-availab
 - If used with a modified respirator mask, it can be made to filter both inhaled and exhaled air.
 - It can be used with a variety of full-head hoods, full-face masks, and respirator masks.
 
+This project was designed in FreeCAD, and the main project file is here: [PAPRv10-MAIN.FCStd](release-candidates/PAPR-Rev10/PAPRv10-MAIN.FCStd)
+
+Individual .stl files for 3D printing are linked in the Bill of Materials below.  Suggested support configuration and print orientation can be found in the assembly instructions below.
+
 Also have a look at RespiraWorks' Ventilator project at https://respira.works and https://github.com/RespiraWorks/Ventilator
 
 ----
@@ -77,7 +81,7 @@ Also have a look at RespiraWorks' Ventilator project at https://respira.works an
 | papr12a   | 1 | Amazon | Elastic Phone Holder | $10 | [Z][3amzn] | Elastic band to hold battery |
 | papr12b   | 1 | AliExpress | Elastic Phone Holder | $0.50 | [A][5ali] | Elastic band to hold battery |
 | papr13   | 1 | Conxwan | 26800mAh battery | $27 | [Z][4amzn] | 18W USB-C Battery |
-| papr14   | 3 | Amazon | 6-32 x 3/8" Screws | $8.75 | [Z][5amzn] | Screws to secure back |
+| papr14   | 4 | Amazon | 6-32 x 3/8" Screws | $8.75 | [Z][5amzn] | Screws to secure back |
 | papr15   | 1 | Amazon | 4ft CPAP hose | $10.57 | [Z][6amzn] | CPAP hose |
 | papr16   | 1 | 3M | 7093 Filter Cartridge (pair) | $30 | [3M][3m1] | example filter packs |
 | papr17   | about 6x6cm | McMaster-Carr | 8785K82-8785K822 (Extra Soft)  | $22.22/12x12" | [C][1mcmc] | 1/8" Silicone Foam Gasket Material |
@@ -130,10 +134,10 @@ The following adapters can be used with a Portacount machine to test the efficac
 | papr-test1   | 1 | Custom 3D print | 6200SamplingAdapter | $1 (material) | [3D][3d10] | Portacount Sampling Adapter for 6200-series Masks |
 | papr-test2   | 1 | Custom 3D print | BayonetFilterTester | $1 (material) | [3D][3d11] | Portacount Sampling Adapter for Bayonet-style Filter Cartridges |
 
-[3d1]: /release-candidates/PAPR-Rev9/PAPR-Body-V9.stl
-[3d2]: /release-candidates/PAPR-Rev9/PAPR-BatteryBack-V9.stl
-[3d3]: /release-candidates/PAPR-Rev9/PAPR-OutletAdapter-V9.stl
-[3d4]: /release-candidates/PAPR-Rev9/PAPR-OutletKey-V9.stl
+[3d1]: /release-candidates/PAPR-Rev10/PAPRv10-Body.stl
+[3d2]: /release-candidates/PAPR-Rev10/PAPRv10-BatteryBack.stl
+[3d3]: /release-candidates/PAPR-Rev10/PAPRv10-OutletAdapter.stl
+[3d4]: /release-candidates/PAPR-Rev10/PAPRv10-OutletKey.stl
 [1ali]: https://www.aliexpress.com/item/32980201709.html
 [2ali]: https://www.aliexpress.com/item/4001161829981.html
 [3ali]: https://www.aliexpress.com/item/4000528106092.html
@@ -187,13 +191,14 @@ The PAPR was designed and tested using the following setup.  You may need to mak
 **Suggested Print Orientations**
 
 **Body**
-- Tilt angle: 3.75° lean back
+- Tilt angle: 4.0° lean back
 - This allows the supports to come in at an angle that makes them easier to remove.
 - This is the maximum angle that still allows the supports needed to correctly print the bayonet teeth in the inlet.
 - This orientation preserves the quality of the printed text.
 - Most printing processes will require that the 6-32 threads the body be chased with a 6-32 tap.  I recommend doing this step before post-curing, while the resin is still soft.
 - Whether you chase the threads before or after post-curing, you MUST clear any uncured resin out of the thread holes before post-curing.  If the residual resin cures inside the holes, it will plug the threads.  A can of compressed gas keyboard cleaner that comes with a straw for directing the flow can be very useful here.
 - Having a 2mm thick needle file can be useful for clearing residue from the supports in the outlet adapter key slot.
+- This Chitubox project file reflects the recommended supports and orientation: [_PAPRv10-Body.chitubox](release-candidates/PAPR-Rev10/_PAPRv10-Body.chitubox)
 
 |                            |                             |
 |:--------------------------:|:---------------------------:|
@@ -203,6 +208,7 @@ The PAPR was designed and tested using the following setup.  You may need to mak
 - Tilt angle: 11° lean back
 - These minimal supports were confirmed to print reliably with the settings above.
 - This orientation keeps the inside surface of the back flat, which is required for pushing the blower into the gasket.
+- This Chitubox project file reflects the recommended supports and orientation: [_PAPRv10-BatteryBack.chitubox](release-candidates/PAPR-Rev10/_PAPRv10-BatteryBack.chitubox)
 
 |                            |                             |
 |:--------------------------:|:---------------------------:|
@@ -213,7 +219,8 @@ The PAPR was designed and tested using the following setup.  You may need to mak
 - Tilt angle: 4° on the mask inlet adapter only.  This overhangs the front face, allowing supports to reach the engagement teeth.
 - These supports on the mask inlet adapter are necessary to make those teeth print correctly.
 - Supports are necessary on the outlet adapter as well, to prevent vacuum formation, which can distort or fail the print.
-- Supports are not technically necessary on th outlet plug and outlet key, but the rafts make removal from the build plate easier, and prevent bottom layer over-exposure distortions which you would otherwise need to remove during post-processing.
+- Supports are not technically necessary on the outlet plug and outlet key, but the rafts make removal from the build plate easier, and prevent bottom layer over-exposure distortions which you would otherwise need to remove during post-processing.
+- This Chitubox project file reflects the recommended supports and orientation: [_PAPRv10-SmallParts.chitubox](release-candidates/PAPR-Rev10/_PAPRv10-SmallParts.chitubox)
 
 ![Print Orientation: Small Parts](/assets/PrintOrientations5-SmallParts.PNG)
 
@@ -321,7 +328,7 @@ Insert the outlet adapter through the hole at the top of the housing and install
 |:--------------------------:|:---------------------------:|:---------------------------:|
 | ![Outlet Adapter Placement](/assets/MechanicalAssembly8-Outlet1.jpg) | ![Outlet Key Placement](/assets/MechanicalAssembly9-Outlet2.jpg) | ![Outlet Complete](/assets/MechanicalAssembly10-Outlet3.jpg)
 
-Route the wires back through the groove to the electronics pocket.  Fit the driver and PD trigger into this pocket.  Install the 6" USB-C cable into the PD trigger and route it as shown out the top of the housing, being careful not to catch the USB connector in a place that is narrower than its height.
+Route the wires back through the groove to the electronics pocket.  Fit the driver and PD trigger into this pocket.  Install the 6" USB-C cable into the PD trigger and route it as shown, along the right side under the blower and out the top of the housing.
 
 ![Electronics Layout](/assets/ElectricalAssembly17-Layout.jpg)
 
@@ -330,7 +337,7 @@ If for some reason you ever need to remove the outlet adapter key, wedge a screw
 ![Outlet Key Removal](/assets/MechanicalAssembly11-OutletKeyRemoval.jpg)
 
 
-**Step 8:** Install the battery back, being careful not to pinch any wires.  It's easiest to slide it on, while holding the wires in place. Use the screws to secure the battery back onto the body. Install the battery into the PAPR and secure it with the elastic cage.
+**Step 8:** Install the battery back, being careful not to pinch any wires.  It may help to slide it on, while holding the wires in place. Use the screws to secure the battery back onto the body. Install the battery into the PAPR and secure it with the elastic cage.
 
 |                            |                             |                             |
 |:--------------------------:|:---------------------------:|:---------------------------:|
