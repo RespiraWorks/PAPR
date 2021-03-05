@@ -73,7 +73,7 @@ Also have a look at RespiraWorks' Ventilator project at https://respira.works an
 | papr4   | 1 | Custom 3D print | TopLevelPart-OutletKey | $6 (material)  | [3D][3d4]    | key to hold the outlet in |
 | papr5   | 1 | Wonsmart | WS7040-12-X200 | $36 | [A][1ali] | 12V Blower |
 | papr6   | 1 | Generic | PotBrushlessController | $10.11 | [A][2ali] | Potentiometer-Controlled Brushless Motor Driver |
-| papr7   | 1 | Generic | 9V/12V USB-C Trigger | $3.15 | [A][3ali] | USB-C 12V/9V PD Trigger |
+| papr7   | 1 | Generic | 9V/12V USB-C Trigger | $3.15 | [A][3ali] | USB-C 12V/9V PD Trigger - choose 9V option when ordering |
 | papr8   | 1 | Amazon | 6-inch USB-C Cable | $3.50 | [Z][1azmn] | 6-inch USB-C Cable |
 | papr9   | 1 | Amazon | Carry Strap | $12.59 | [Z][2amzn] | Carry Strap |
 | papr10   | 1 | Littelfuse | SMAJ9.0A | $0.41 | [K][1dk] | TVS diode |
@@ -140,7 +140,7 @@ The following adapters can be used with a Portacount machine to test the efficac
 [3d4]: /release-candidates/PAPR-Rev10/PAPRv10-OutletKey.stl
 [1ali]: https://www.aliexpress.com/item/32980201709.html
 [2ali]: https://www.aliexpress.com/item/4001161829981.html
-[3ali]: https://www.aliexpress.com/item/4000528106092.html
+[3ali]: https://www.aliexpress.com/item/1005001570732005.html
 [1azmn]: https://www.amazon.com/gp/product/B01LONPUM4
 [2amzn]: https://www.amazon.com/gp/product/B06XDNR14N
 [1dk]: https://www.digikey.com/product-detail/en/littelfuse-inc/SMAJ9.0A/SMAJ9.0ALFCT-ND/762476
