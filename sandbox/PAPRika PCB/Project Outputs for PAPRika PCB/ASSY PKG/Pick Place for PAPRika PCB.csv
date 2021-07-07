@@ -1,0 +1,27 @@
+Altium Designer Pick and Place Locations
+C:\Projects\PAPR\sandbox\PAPRika PCB\Project Outputs for PAPRika PCB\ASSY PKG\Pick Place for PAPRika PCB.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       29/11/20
+Time:       02:37
+Revision:   5bcf082de0f6f41904e552fa5b9b6baf16b029f0
+Variant:    No variations
+Units used: mil
+
+"Designator","Comment","Layer","Footprint","Center-X(mil)","Center-Y(mil)","Rotation","Description"
+"J1","B4B-PH-SM4-TB(LF)(SN)","TopLayer","B4B-PH-SM4-TB","287.402","1412.401","360","JST 4-pin Male PCB Straight 2.00mm"
+"R1","PTD901-2015K-B502","TopLayer","PTD901","1090.551","1417.323","0","POT 5K OHM 1/20W CARBON LINEAR"
+"U2","AP2204K-5.0TRG1","TopLayer","5-SOT23","728.346","1153.543","270","IC REG LINEAR 5V 150MA SOT23-5"
+"U1","NE555DR","TopLayer","8-D","992.126","1200.787","0","IC OSC SGL TIMER 100KHZ 8-SOIC"
+"TP2","TP-5001-RED","TopLayer","TP-5001-BLACK","82.677","1137.795","0","Keystone 5001 BLACK TH Mini Testpoint"
+"TP1","TP-5001-RED","TopLayer","TP-5001-BLACK","488.189","1137.795","0","Keystone 5001 BLACK TH Mini Testpoint"
+"R2","RES 0603","TopLayer","RES0603","700.789","1340.554","180","Res 0603"
+"D3","1N4148W-7-F","TopLayer","SOD-123","716.535","1484.252","270","Ultra-Fast Signal Diode, Silicon, 100V, 300mA"
+"D2","TVS Zener","TopLayer","DO-214AC","287.402","1141.732","180","TVS DIODE 9V 15.4V DO214AC"
+"D1","1N4148W-7-F","TopLayer","SOD-123","807.087","1484.252","90","Ultra-Fast Signal Diode, Silicon, 100V, 300mA"
+"C4","CAP 0603","TopLayer","CAP0603","763.778","1267.713","360","Cap 0603"
+"C3","CAP 0603","TopLayer","CAP0603","1208.660","1259.839","360","Cap 0603"
+"C2","CAP 0805","TopLayer","CAP0805","594.487","1212.600","270","Cap 0805"
+"C1","CAP 0603","TopLayer","CAP0603","1181.099","1157.482","270","Cap 0603"
