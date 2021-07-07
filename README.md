@@ -40,6 +40,7 @@ Also have a look at RespiraWorks' Ventilator project at https://respira.works an
   * [PAPR Assembly Instructions](#papr-assembly-instructions)
   * [Mask Assembly Instructions](#mask-assembly-instructions)
     + [6100/6200/6300 Half Facepiece Mask](#6100-6200-6300-half-facepiece-mask)
+	+ [M-200 Series Full Face Helmet](#m-200-series-full-face-helmet)
   * [Testing](#testing)
     + [To test the 6200-series masks](#to-test-the-6200-series-masks)
     + [To test the filter cartridges](#to-test-the-filter-cartridges)
@@ -101,7 +102,9 @@ Parts for modifying and adapting masks and helmets for use with the PAPR
 | mask5   | 1 | Custom 3D print | Bayonet Inlet Adapter | $2 (material) | [3D][3d7] | Inlet Adapter for Bayonet-type masks |
 | mask6   | 1 | Custom 3D print | 6100/6200/6300 Outlet Plug | $1 (material) | [3D][3d8] | Plug for sealing the outlet valve of 6100/6200/6300 masks |
 | mask7   | 1 | 3M | Inlet Filter Gasket  | $2.01 | [G][1grgr] | Inlet Gasket used as part of above outlet sealing |
-| mask8   | 1 | 3D | Outlet adapter to MGHT for allegro mask | $1.00 | [3D][3d9] | Outlet adapter to allow garden hose connection |
+| mask8   | 1 | Custom 3D print | Outlet adapter to MGHT for allegro mask | $1.00 | [3D][3d9] | Outlet adapter to allow garden hose connection |
+| mask9   | 1 | Custom 3D print | 3M M-200 Series Full Face Helmet Adapter Body | $3.00 | [3D][3d12] | Adapts M-200 Helmet inlet for use with PAPR |
+| mask10  | 1 | Custom 3D print | 3M M-200 Series Full Face Helmet Retaining Ring | $1.00 | [3D][3d13] | Retaining ring for M-200 Helmet Adapter |
 
 *note, without modification, these masks do not filter the exhaled air.  They are useful for keeping the wearer safe, but not for keeping others safe from the wearer.
 
@@ -168,6 +171,8 @@ The following adapters can be used with a Portacount machine to test the efficac
 [3d11]: /release-candidates/PAPRtest/PAPRtest-Portacount-BayonetFilterTester.stl
 [10amzn]: https://www.amazon.com/Tools-Machine-Fractional-12-Piece-24605/dp/B00004YOAZ
 [5ali]: https://www.aliexpress.com/item/4000278505876.html
+[3d12]: /release-candidates/PAPRmasks/PAPRmasks-M200-RC1-AdapterBody.stl
+[3d13]: /release-candidates/PAPRmasks/PAPRmasks-M200-RC1-LockingRing.stl
 
 ## Useful Media
 | Graphic for printing Outlet Stickers | Info cards (useful on planes or for the curious) Click image for PDF |
@@ -368,9 +373,9 @@ If for some reason you ever need to remove the outlet adapter key, wedge a screw
 
 ### 6100/6200/6300 Half Facepiece Mask
 
-Note that 6100 is the small side, 6200 is medium, and 6300 is large.  These instructions and the 3D-printed pieces will work with all three sizes.
+Note that 6100 is the small size, 6200 is medium, and 6300 is large.  These instructions and the 3D-printed pieces will work with all three sizes.
 
-These modifications to the mask make it compatible with the PAPR, while also plugging the exhale valve and repurposing one of the inlet filters as an outlet filter.  This converts the mask into a full 2-way PAPR that filters both inhaled and exhaled air.
+These modifications to the mask make it compatible with the PAPR, while also plugging the exhale valve and repurposing one of the inlet filters as an outlet filter.  This converts the mask into a full 2-way PAPR that filters both inhaled and exhaled air.  Because one of the one-way valves is preserved, when used with this modified 6000-series mask, the PAPR can continue to provide filtered inhale and exhale circulation even if powered off or the battery is dead, albiet with increased breathing effort.
 
 **Step 1:** Select one side of the mask to be the outlet filter side.  Remove the check valve membrane from the one-way valve on that side.  Install the bayonet filter cartridge onto that side.  On the opposite side, leave the valve membrane in place and install the 3D-Printed Bayonet Mask Adapter.
 
@@ -397,6 +402,29 @@ Put one of the 3M filter gaskets over the membrane, followed by the outlet plug.
 | ![Reinstall Outlet Cover](/assets/6200Mask8-CloseOutletCover.jpg) | ![Label Outlet](/assets/6200Mask9-LabelOutlet.jpg) |
 
 ![Completed Mask](/assets/6200Mask10-MaskComplete.jpg)
+
+### M-200 Series Full Face Helmet
+
+![Edwin in an M-206 Full Face Helmet](/assets/EdwinInPAPR-M206.jpg)
+
+With a 3D printed adapter, the 3M M-200 series Full Face Helmet can be used with the PAPR.
+
+Note that the M-200 helmet does not have exhale filtering nor tight sealing.  It relies on positive pressure to provide the wearer filtered air, and exhausts exhaled air around the top of the head and the neck.  Unlike the modified 6200 Half Facepiece setup described above, this will not provide filtering if the PAPR is off.
+
+**Step 1:** Print both parts, the adapter body, listed as mask9 in the Bill of Materials above, and the retaining ring, listed as mask10.  For suggested print orientations and supports, you may refer to the [chitubox project file](release-candidates/PAPRmasks/_PAPRmasks-M200-HelmetAdapter-RC1.chitubox).
+
+Take the retaining ring and orient it as shown, with the arrows pointing towards the helmet side.  Place one side of the ring into one slot in the body, and stretch the other side over the edge like a rubber band.  Pull it over until it clicks into the other side.
+
+| Orient the ring correctly | Stretch the ring over the body | Click it into the other side |
+|:--------------------------:|:---------------------------:|:---------------------------:|
+| ![Orient the ring correctly](/assets/M200-Adapter1.jpg) | ![Stretch the ring over the body](/assets/M200-Adapter2.jpg) | ![Click it into the other side](/assets/M200-Adapter3.jpg) |
+
+**Step 2:** Connect the adapter to the helmet.  First check that the adapter looks as shown.  Push the adapter onto the inlet of the helment until BOTH sides of the retaining ring click.  It will take some force but this helps it make a good seal.  The PAPR hose can now be attached.  Note that loose-fitting helmets such as the M-200 require more flow and thus a higher power setting on the PAPR, so you may need a larger battery to get the same runtime as on other types of masks.
+
+| It should look like this | Push the adapter onto the inlet | Make sure both sides click! |
+|:--------------------------:|:---------------------------:|:---------------------------:|
+| ![It should look like this](/assets/M200-Adapter4.jpg) | ![Push the adapter onto the inlet](/assets/M200-Adapter5.jpg) | ![Make sure both sides click](/assets/M200-Adapter6.jpg) |
+
 
 ----
 
